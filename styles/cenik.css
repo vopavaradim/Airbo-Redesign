@@ -1,0 +1,35 @@
+body {
+  top: 0px;
+  left: 0px;
+  width: 1920px;
+  height: 2760px;
+}
+
+#header {
+  margin-top: 118px;
+  margin-left: 407px;
+  width: 1739px;
+  height: 296px;
+  background: transparent url("/img/Group 22.png") 0% 0% no-repeat padding-box;
+  opacity: 0.5;
+}
+
+#header h1 {
+  font-size: 96px;
+  color: #273476;
+}
+
+#mainInfo {
+  margin-top: 200px;
+  margin-left: 668px;
+  width: 698px;
+  height: 94px;
+  color: var(--unnamed-color-273476);
+  text-align: left;
+  letter-spacing: NaNpx;
+  color: #273476;
+  opacity: 1;
+  font-family: Barlow, Regular;
+  font-size: 18px;
+}
+/*# sourceMappingURL=cenik.css.map */
