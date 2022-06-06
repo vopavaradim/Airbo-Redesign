@@ -1,26 +1,30 @@
+html {
+    width: 1900px;
+}
+
 body {
 top: 0px;
 left: 0px;
-width: 1920px;
-height: 2760px;
+font-family: 'Roboto Slab', serif;
+margin: 0;
 }
+
 
 #header {
-    margin-top: 118px;
     margin-left: 407px;
-    width: 1739px;
     height: 296px;
     background: transparent url('/img/Group\ 22.png') 0% 0% no-repeat padding-box;
-    opacity: 0.5;
-}
+    opacity: 1;
 
-#header h1 {
-    font-size: 96px;
-    color: #273476;
+    h1 {
+        font-size: 96px;
+        color:#273476;
+        margin-left: 291px;
+    }
 }
 
 #mainInfo {
-    margin-top: 200px;
+    margin-top: 5%;
     margin-left: 668px;
     width: 698px;
     height: 94px;
@@ -29,35 +33,396 @@ height: 2760px;
     letter-spacing: NaNpx;
     color: #273476;
     opacity: 1;
-    font-family: Barlow, Regular;
+    font-family: 'Roboto Slab', serif;
     font-size: 24px;
 }
 
 
-#buttonSection button {
-    font-size: 25px;
+/* Navbar */
+
+#navbar {
+    height: 22px;
+    width: 100%;
+
+    nav {
+        float: left;
+        width: 100%;
+        position: relative;
+        border-bottom: 2px solid #DEDEDE;
+
+        img {
+            float: left;
+            margin-left: 5%;
+
+        }
+    
+        
+        ul {
+            list-style: none;
+            margin-left: 826px;
+            
+            li {
+                a {
+                    float: left;
+                    padding-left: 20px;
+                    padding-right: 20px;
+                    padding-top: 22px;
+                    padding-bottom: 22px;
+                    font-size: 20px;
+                    cursor: pointer;
+                    transition: ease 0.3s;
+                }
+
+                a:hover {
+                    background: linear-gradient(
+                        to top,
+                        #FF5A5F 0%,
+                        #FF5A5F 80%,
+                        #23347A 80%,
+                        #23347A 100%
+                    );
+                
+                    
+                }
+
+                .login {
+                    border-left: 1px solid #DEDEDE;
+                    border-right: 1px solid #DEDEDE;
+                }
+            }
+        }
+
+        button {
+            font-family: Bebas Neue;
+            border-radius: 20px;
+            border-style: none;
+            padding: 15px;
+            background-color:#273476;
+            color: white;
+            font-size: 20px;
+            margin-left: 40px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #171f44;
+            text-shadow: 3px white;
+            transition: ease 0.3s;
+        }
+    }
+}
+
+
+/* Switch */
+
+#switchSection {
+    width: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 60px;
+
+    p {
+        float: left;
+        font-size: 30px;
+        position: relative;
+        color:#273476;
+    }
+
+    .switchButton {
+        float: left;
+        margin-top: 5px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+
+.switch {
+    display: inline-block;
+    position: relative;
+    width: 105px;
+    height: 47px;
+    margin-top:  22px;
+  }
+  
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 40px;
+    width: 40px;
+    left: 3px;
+    bottom: 3px;
+    top: 3px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #273476;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #273476;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(60px);
+    -ms-transform: translateX(60px);
+    transform: translateX(60px);
+    right: 3px;
+  }
+  
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+.rectangle {
+    float: left;
+    position: relative;
+    width: 21%;
+}
+
+#versions {
+    width: 80%;
+    position: relative;
+    background: transparent url('/img/Mask\ Group\ 7.png') 0% 0% no-repeat padding-box;
+    margin-left: 5%;
+    margin-top: 15%;
+    background-image: url('/img/Mask Group 7.png');
+    opacity: 1;
+
+    .version {
+        float: left;
+        padding: 20px;
+        
+        img {
+        width: 80%;
+        margin-left: 10%;
+        }
+
+        .flatsCount {
+            font-size: 35px;
+            text-align: center;
+            color: #273476;
+        }
+
+        .price {
+            font-size: 45px;
+            text-align: center;
+            font-weight: bold;
+            color: #273476;
+        }
+
+        .dotted-text {
+            display: flex;
+            flex-direction: row;
+            color: #273476;
+          }
+          
+          .dotted-text:before, 
+          .dotted-text:after{
+            content: "";
+            flex: 1 1;
+            border-bottom: 2px dotted;
+            margin: auto;
+          }
+          
+          .dotted-text:before {
+            margin-right: 10px;
+          }
+          
+          .dotted-text:after {
+            margin-left: 10px;
+          }
+        .priceInfo {
+            font-size: 20px;
+            text-align: center;
+            color: #273476;
+
+            span {
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+
+#buttonSection {
+    width: 100%;
+    
+    button {
+    font-family: Bebas Neue;
+    font-size: 35px;
     padding: 15px 35px 15px 35px;
     text-transform: uppercase;
     background-color: #273476;
     color: white;
-    width: 357px;
-    margin-top: 1412px;
-    margin-left: 795px;
+    width: 20%;
+    margin-top: 5%;
+    margin-left: 40%;
     height: 75px;
     border-radius: 30px;
     border-style: none;
-}
+    transition: ease 0.3s;
+    cursor: pointer;
+    }
 
-#buttonSection .secondTitle {
+    button:hover{
+        background-color: #171f44;
+        text-shadow: 3px white;
+        }
+
+    .secondTitle {
     font-size: 25px;
     text-align: center;
     font-weight: bold;
     color: #273476;
 }
 
-#buttonSection span {
+    span {
     font-size: 15px;
     color: #273476;
     text-align: center;
 }
+}
 
+
+#askUs {
+    width: 100%;
+    margin-top: 5%;
+    background: transparent url('/img/Group\ 10.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    #askUsContent {
+        width: 50%;
+        float: left;
+    .chcetese {
+            text-align: right;
+            color:#273476;
+            .chcetese1 {
+                font-size: 40px;
+                margin-left: 600px;
+                font-weight: bold;
+                font-family: Bebas Neue;
+                
+            }
+
+            .chcetese2 {
+                text-align: right;
+                font-size: 40px;
+                margin-left: 629px;
+             }
+        }
+
+        .askUsText {
+            text-align: right;
+            margin-left: 629px;
+            background-color: white;
+            font-size: 15px;
+            color: #273476;
+            width: 333px;
+        }
+
+        .contact {
+            background-color: white;
+            color: #273476;
+            text-align: right;
+            margin-left: 762px;
+            width: 200px;
+
+        .name {
+                font-size: 25px;
+                font-weight: bold;
+                color:#273476;
+            }
+
+        .contactInfo {
+            font-size: 17px;
+        }
+        }
+    }
+    img {
+        float: right;
+        width: 20%;
+        margin-right: 25%;
+        margin-top: 5%;
+    }
+}
+
+
+#footer {
+    width: 100%;
+    bottom: 0;
+    margin-top: 40%;
+    border-top:2px dashed #CDD3F0;
+    border-bottom: 2px dashed #CDD3F0;
+    .footerImgs {
+        position: relative;
+        width: 180px;
+        margin-left: 850px;
+        margin-bottom: 5%;
+        img {
+            float: left;
+            width: 70px;
+            padding: 10px;
+            margin-top: -50px;
+            
+        }
+    }
+
+    .footerText {
+        width: 40%;
+        margin-left: 30%;
+
+        p {
+            text-align: center;
+            color:#273476;
+        }
+
+        .all {
+            text-decoration: underline;
+            margin-top: 30px;
+        }
+    }
+}
+
+#underFooter {
+    width: 26%;
+    margin-left: 36%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    .underFooterText {
+        p {
+
+            a {
+        float: left;
+        padding: 20px;
+        color:#273476;
+        text-decoration: underline;
+            }
+        }
+    }
+}
