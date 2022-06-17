@@ -1,18 +1,18 @@
-#switchSection {
+.switchSection {
   width: 30%;
   margin-left: 35%;
   margin-right: 35%;
   margin-top: 60px;
 }
 
-#switchSection p {
+.switchSection p {
   float: left;
   font-size: 30px;
   position: relative;
   color: #273476;
 }
 
-#switchSection .switchButton {
+.switchSection .switchButton {
   float: left;
   margin-top: 5px;
   padding-left: 20px;

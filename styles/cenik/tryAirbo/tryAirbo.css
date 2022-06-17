@@ -1,8 +1,8 @@
-#buttonSection {
+.buttonSection {
   width: 100%;
 }
 
-#buttonSection button {
+.buttonSection button {
   font-family: Bebas Neue;
   font-size: 35px;
   padding: 15px 35px 15px 35px;
@@ -20,19 +20,19 @@
   cursor: pointer;
 }
 
-#buttonSection button:hover {
+.buttonSection button:hover {
   background-color: #171f44;
   text-shadow: 3px white;
 }
 
-#buttonSection .secondTitle {
+.buttonSection .secondTitle {
   font-size: 25px;
   text-align: center;
   font-weight: bold;
   color: #273476;
 }
 
-#buttonSection span {
+.buttonSection span {
   font-size: 15px;
   color: #273476;
   text-align: center;
