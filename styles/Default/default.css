@@ -71,7 +71,7 @@ body {
 }
 
 /* FOOTER */
-#footer {
+.footer {
   width: 100%;
   bottom: 0;
   margin-top: 40%;
@@ -79,43 +79,43 @@ body {
   border-bottom: 2px dashed #CDD3F0;
 }
 
-#footer .footerImgs {
+.footer .footerImgs {
   position: relative;
   width: 180px;
   margin-left: 850px;
   margin-bottom: 5%;
 }
 
-#footer .footerImgs img {
+.footer .footerImgs img {
   float: left;
   width: 70px;
   padding: 10px;
   margin-top: -50px;
 }
 
-#footer .footerText {
+.footer .footerText {
   width: 40%;
   margin-left: 30%;
 }
 
-#footer .footerText p {
+.footer .footerText p {
   text-align: center;
   color: #273476;
 }
 
-#footer .footerText .all {
+.footer .footerText .all {
   text-decoration: underline;
   margin-top: 30px;
 }
 
-#underFooter {
+.underFooter {
   width: 26%;
   margin-left: 36%;
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
-#underFooter .underFooterText p a {
+.underFooter .underFooterText p a {
   float: left;
   padding: 20px;
   color: #273476;
