@@ -1,1 +1,253 @@
-/*# sourceMappingURL=main.scss */
+.header {
+  margin-left: 407px;
+  height: 296px;
+  background: transparent url("/img/headerBackground.png") 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+.header h1 {
+  font-size: 96px;
+  color: #273476;
+  margin-left: 291px;
+}
+
+.mainInfo {
+  margin-top: 5%;
+  margin-left: 668px;
+  width: 698px;
+  height: 94px;
+  color: #273476;
+  text-align: left;
+  letter-spacing: NaNpx;
+  color: #273476;
+  opacity: 1;
+  font-family: "Roboto Slab", serif;
+  font-size: 24px;
+}
+
+.switchSection {
+  width: 30%;
+  margin-left: 35%;
+  margin-right: 35%;
+  margin-top: 60px;
+}
+.switchSection p {
+  float: left;
+  font-size: 30px;
+  position: relative;
+  color: #273476;
+}
+.switchSection .switchButton {
+  float: left;
+  margin-top: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.switch {
+  display: inline-block;
+  position: relative;
+  width: 105px;
+  height: 47px;
+  margin-top: 22px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 40px;
+  width: 40px;
+  left: 3px;
+  bottom: 3px;
+  top: 3px;
+  background-color: white;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #273476;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #273476;
+}
+
+input:checked + .slider:before {
+  transform: translateX(60px);
+  right: 3px;
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.rectangle {
+  float: left;
+  position: relative;
+  width: 21%;
+}
+
+.versions {
+  width: 80%;
+  position: relative;
+  background-image: url("../img/7.png");
+  margin-left: 5%;
+  margin-top: 15%;
+  opacity: 1;
+}
+.versions .version {
+  float: left;
+  padding: 20px;
+}
+.versions .version img {
+  width: 80%;
+  margin-left: 10%;
+}
+.versions .version .flatsCount {
+  font-size: 35px;
+  text-align: center;
+  color: #273476;
+}
+.versions .version .price {
+  font-size: 45px;
+  text-align: center;
+  font-weight: bold;
+  color: #273476;
+}
+.versions .version .dotted-text {
+  display: flex;
+  flex-direction: row;
+  color: #273476;
+}
+.versions .version .dotted-text:before,
+.versions .version .dotted-text:after {
+  content: "";
+  flex: 1 1;
+  border-bottom: 2px dotted;
+  margin: auto;
+}
+.versions .version .dotted-text:before {
+  margin-right: 10px;
+}
+.versions .version .dotted-text:after {
+  margin-left: 10px;
+}
+.versions .version .priceInfo {
+  font-size: 20px;
+  text-align: center;
+  color: #273476;
+}
+.versions .version .priceInfo span {
+  text-decoration: underline;
+}
+
+.buttonSection {
+  width: 100%;
+}
+.buttonSection button {
+  font-family: Bebas Neue;
+  font-size: 35px;
+  padding: 15px 35px 15px 35px;
+  text-transform: uppercase;
+  background-color: #273476;
+  color: white;
+  width: 20%;
+  margin-top: 5%;
+  margin-left: 40%;
+  height: 75px;
+  border-radius: 30px;
+  border-style: none;
+  transition: ease 0.3s;
+  cursor: pointer;
+}
+.buttonSection button:hover {
+  background-color: #171f44;
+  text-shadow: 3px white;
+}
+.buttonSection .secondTitle {
+  font-size: 25px;
+  text-align: center;
+  font-weight: bold;
+  color: #273476;
+}
+.buttonSection span {
+  font-size: 15px;
+  color: #273476;
+  text-align: center;
+}
+
+.askUs {
+  width: 100%;
+  margin-top: 5%;
+  background: transparent url("/img/Group 10.png") 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+.askUs .askUsContent {
+  width: 50%;
+  float: left;
+}
+.askUs .askUsContent .chcetese {
+  text-align: right;
+  color: #273476;
+}
+.askUs .askUsContent .chcetese .chcetese1 {
+  font-size: 40px;
+  margin-left: 600px;
+  font-weight: bold;
+  font-family: Bebas Neue;
+}
+.askUs .askUsContent .chcetese .chcetese2 {
+  text-align: right;
+  font-size: 40px;
+  margin-left: 629px;
+}
+.askUs .askUsContent .askUsText {
+  text-align: right;
+  margin-left: 629px;
+  background-color: white;
+  font-size: 15px;
+  color: #273476;
+  width: 333px;
+}
+.askUs .askUsContent .contact {
+  background-color: white;
+  color: #273476;
+  text-align: right;
+  margin-left: 762px;
+  width: 200px;
+}
+.askUs .askUsContent .contact .name {
+  font-size: 25px;
+  font-weight: bold;
+  color: #273476;
+}
+.askUs .askUsContent .contact .contactInfo {
+  font-size: 17px;
+}
+.askUs img {
+  float: right;
+  width: 20%;
+  margin-right: 25%;
+  margin-top: 5%;
+}/*# sourceMappingURL=main.css.map */
