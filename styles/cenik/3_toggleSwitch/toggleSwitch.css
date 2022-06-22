@@ -4,14 +4,12 @@
   margin-right: 35%;
   margin-top: 60px;
 }
-
 .switchSection p {
   float: left;
   font-size: 30px;
   position: relative;
   color: #273476;
 }
-
 .switchSection .switchButton {
   float: left;
   margin-top: 5px;
@@ -42,8 +40,7 @@
   right: 0;
   bottom: 0;
   background-color: #ccc;
-  -webkit-transition: .4s;
-  transition: .4s;
+  transition: 0.4s;
 }
 
 .slider:before {
@@ -55,8 +52,7 @@
   bottom: 3px;
   top: 3px;
   background-color: white;
-  -webkit-transition: .4s;
-  transition: .4s;
+  transition: 0.4s;
 }
 
 input:checked + .slider {
@@ -64,12 +60,10 @@ input:checked + .slider {
 }
 
 input:focus + .slider {
-  -webkit-box-shadow: 0 0 1px #273476;
-          box-shadow: 0 0 1px #273476;
+  box-shadow: 0 0 1px #273476;
 }
 
 input:checked + .slider:before {
-  -webkit-transform: translateX(60px);
   transform: translateX(60px);
   right: 3px;
 }
@@ -86,5 +80,4 @@ input:checked + .slider:before {
   float: left;
   position: relative;
   width: 21%;
-}
-/*# sourceMappingURL=toggleSwitch.css.map */
+}/*# sourceMappingURL=toggleSwitch.css.map */

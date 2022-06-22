@@ -1,9 +1,1 @@
-{
-    "version": 3,
-    "mappings": "AACA,AAAA,SAAS,CAAC;EACN,UAAU,EAAE,EAAE;EACd,WAAW,EAAE,KAAK;EAClB,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,IAAI;EACZ,KAAK,EAAE,OAAO;EACd,UAAU,EAAE,IAAI;EAChB,cAAc,EAAE,KAAK;EACrB,KAAK,EAAE,OAAO;EACd,OAAO,EAAE,CAAC;EACV,WAAW,EAAE,oBAAoB;EACjC,SAAS,EAAE,IAAI;CAClB",
-    "sources": [
-        "mainInfo.scss"
-    ],
-    "names": [],
-    "file": "mainInfo.css"
-}
+{"version":3,"sources":["mainInfo.scss","mainInfo.css"],"names":[],"mappings":"AACA;EACI,cAAA;EACA,kBAAA;EACA,YAAA;EACA,YAAA;EACA,cAAA;EACA,gBAAA;EACA,qBAAA;EACA,cAAA;EACA,UAAA;EACA,iCAAA;EACA,eAAA;ACAJ","file":"mainInfo.css"}
