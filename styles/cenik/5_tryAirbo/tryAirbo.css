@@ -31,4 +31,43 @@
   font-size: 15px;
   color: #273476;
   text-align: center;
+}
+
+@media only screen and (max-width: 375px) {
+  .buttonSection {
+    width: 100%;
+  }
+  .buttonSection button {
+    font-family: Bebas Neue;
+    font-size: 25px;
+    padding: 10px 25px 10px 25px;
+    text-transform: uppercase;
+    background-color: #273476;
+    color: white;
+    width: 60%;
+    margin-top: 5%;
+    margin-left: 20%;
+    height: 60px;
+    border-radius: 30px;
+    border-style: none;
+    transition: ease 0.3s;
+    cursor: pointer;
+  }
+  .buttonSection button:hover {
+    background-color: #171f44;
+    text-shadow: 3px white;
+  }
+  .buttonSection .secondTitle {
+    width: 80%;
+    margin-left: 10%;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    color: #273476;
+  }
+  .buttonSection span {
+    font-size: 15px;
+    color: #273476;
+    text-align: center;
+  }
 }/*# sourceMappingURL=tryAirbo.css.map */

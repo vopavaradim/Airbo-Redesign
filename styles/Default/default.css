@@ -8,6 +8,7 @@ body {
 
 /* NAVBAR */
 #navbar {
+  display: none;
   height: 22px;
   width: 100%;
 }
@@ -61,6 +62,7 @@ body {
 
 /* FOOTER */
 .footer {
+  display: none;
   width: 100%;
   bottom: 0;
   margin-top: 40%;
@@ -93,6 +95,7 @@ body {
 }
 
 .underFooter {
+  display: none;
   width: 26%;
   margin-left: 36%;
   margin-top: 20px;
@@ -103,4 +106,104 @@ body {
   padding: 20px;
   color: #273476;
   text-decoration: underline;
+}
+
+@media only screen and (max-width: 375px) {
+  #navbar {
+    height: 22px;
+    width: 100%;
+  }
+  #navbar nav {
+    float: left;
+    width: 100%;
+    position: relative;
+    border-bottom: 2px solid #DEDEDE;
+  }
+  #navbar nav img {
+    float: left;
+    margin-left: 5%;
+  }
+  #navbar nav ul {
+    list-style: none;
+    margin-left: 826px;
+  }
+  #navbar nav ul li a {
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: ease 0.3s;
+  }
+  #navbar nav ul li a:hover {
+    background: linear-gradient(to top, #FF5A5F 0%, #FF5A5F 80%, #23347A 80%, #23347A 100%);
+  }
+  #navbar nav ul li .login {
+    border-left: 1px solid #DEDEDE;
+    border-right: 1px solid #DEDEDE;
+  }
+  #navbar nav button {
+    font-family: Bebas Neue;
+    border-radius: 20px;
+    border-style: none;
+    padding: 15px;
+    background-color: #273476;
+    color: white;
+    font-size: 20px;
+    margin-left: 40px;
+    cursor: pointer;
+  }
+  #navbar nav button:hover {
+    background-color: #171f44;
+    text-shadow: 3px white;
+    transition: ease 0.3s;
+  }
+
+  /* FOOTER */
+  .footer {
+    width: 100%;
+    bottom: 0;
+    margin-top: 40%;
+    border-top: 2px dashed #CDD3F0;
+    border-bottom: 2px dashed #CDD3F0;
+  }
+  .footer .footerImgs {
+    position: relative;
+    width: 180px;
+    margin-left: 850px;
+    margin-bottom: 5%;
+  }
+  .footer .footerImgs img {
+    float: left;
+    width: 70px;
+    padding: 10px;
+    margin-top: -50px;
+  }
+  .footer .footerText {
+    width: 40%;
+    margin-left: 30%;
+  }
+  .footer .footerText p {
+    text-align: center;
+    color: #273476;
+  }
+  .footer .footerText .all {
+    text-decoration: underline;
+    margin-top: 30px;
+  }
+
+  .underFooter {
+    width: 26%;
+    margin-left: 36%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .underFooter .underFooterText p a {
+    float: left;
+    padding: 20px;
+    color: #273476;
+    text-decoration: underline;
+  }
 }/*# sourceMappingURL=default.css.map */

@@ -10,6 +10,19 @@
   margin-left: 291px;
 }
 
+@media only screen and (max-width: 375px) {
+  .header {
+    margin-left: 20px;
+    height: 120px;
+    background: none;
+    opacity: 1;
+  }
+  .header h1 {
+    font-size: 50px;
+    color: #273476;
+    margin-left: 20px;
+  }
+}
 .mainInfo {
   margin-top: 5%;
   margin-left: 668px;
@@ -24,6 +37,19 @@
   font-size: 24px;
 }
 
+@media only screen and (max-width: 375px) {
+  .mainInfo {
+    margin-top: 10%;
+    margin-left: 10%;
+    width: 80%;
+    height: 94px;
+    color: #273476;
+    text-align: left;
+    opacity: 1;
+    font-family: "Roboto Slab", serif;
+    font-size: 18px;
+  }
+}
 .switchSection {
   width: 30%;
   margin-left: 35%;
@@ -108,6 +134,87 @@ input:checked + .slider:before {
   width: 21%;
 }
 
+@media only screen and (max-width: 375px) {
+  .rectangle {
+    display: none;
+  }
+
+  .switchSection {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 30%;
+  }
+  .switchSection p {
+    float: left;
+    font-size: 15px;
+    position: relative;
+    color: #273476;
+  }
+  .switchSection .switchButton {
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .switch {
+    display: inline-block;
+    position: relative;
+    width: 65px;
+    height: 25px;
+  }
+
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: 0.4s;
+  }
+
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 24px;
+    width: 24px;
+    left: 3px;
+    bottom: 3px;
+    top: 3px;
+    background-color: white;
+    transition: 0.4s;
+  }
+
+  input:checked + .slider {
+    background-color: #273476;
+  }
+
+  input:focus + .slider {
+    box-shadow: 0 0 1px #273476;
+  }
+
+  input:checked + .slider:before {
+    transform: translateX(60px);
+    right: 3px;
+  }
+
+  .slider.round {
+    border-radius: 34px;
+  }
+
+  .slider.round:before {
+    border-radius: 50%;
+  }
+}
 .versions {
   width: 80%;
   position: relative;
@@ -197,6 +304,44 @@ input:checked + .slider:before {
   text-align: center;
 }
 
+@media only screen and (max-width: 375px) {
+  .buttonSection {
+    width: 100%;
+  }
+  .buttonSection button {
+    font-family: Bebas Neue;
+    font-size: 25px;
+    padding: 10px 25px 10px 25px;
+    text-transform: uppercase;
+    background-color: #273476;
+    color: white;
+    width: 60%;
+    margin-top: 5%;
+    margin-left: 20%;
+    height: 60px;
+    border-radius: 30px;
+    border-style: none;
+    transition: ease 0.3s;
+    cursor: pointer;
+  }
+  .buttonSection button:hover {
+    background-color: #171f44;
+    text-shadow: 3px white;
+  }
+  .buttonSection .secondTitle {
+    width: 80%;
+    margin-left: 10%;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    color: #273476;
+  }
+  .buttonSection span {
+    font-size: 15px;
+    color: #273476;
+    text-align: center;
+  }
+}
 .askUs {
   width: 100%;
   margin-top: 5%;
@@ -250,4 +395,64 @@ input:checked + .slider:before {
   width: 20%;
   margin-right: 25%;
   margin-top: 5%;
+}
+
+@media only screen and (max-width: 375px) {
+  .askUs {
+    width: 100%;
+    margin-top: 5%;
+    background: transparent url("/img/Group 10.png") 0% 0% no-repeat padding-box;
+    opacity: 1;
+  }
+  .askUs .askUsContent {
+    width: 90%;
+    margin-left: 5%;
+  }
+  .askUs .askUsContent .chcetese {
+    text-align: center;
+    color: #273476;
+  }
+  .askUs .askUsContent .chcetese .chcetese1 {
+    font-size: 30px;
+    margin-left: 30px;
+    font-weight: bold;
+    font-family: Bebas Neue;
+  }
+  .askUs .askUsContent .chcetese .chcetese2 {
+    margin-left: 0px;
+    text-align: center;
+    font-size: 35px;
+  }
+  .askUs .askUsContent .askUsText {
+    text-align: left;
+    background-color: white;
+    font-size: 15px;
+    color: #273476;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 10%;
+  }
+  .askUs .askUsContent .contact {
+    background-color: white;
+    color: #273476;
+    text-align: left;
+    margin-left: 5%;
+    margin-top: 10%;
+    width: 90%;
+  }
+  .askUs .askUsContent .contact .name {
+    font-size: 25px;
+    font-weight: bold;
+    color: #273476;
+  }
+  .askUs .askUsContent .contact .contactInfo {
+    font-size: 17px;
+  }
+  .askUs img {
+    position: relative;
+    width: 90%;
+    margin-right: -10%;
+    margin-bottom: -5%;
+    margin-top: 5%;
+  }
 }/*# sourceMappingURL=main.css.map */

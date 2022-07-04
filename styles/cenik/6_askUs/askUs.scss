@@ -59,3 +59,70 @@
     }
 }
 
+@media only screen and (max-width: 375px) {
+    .askUs {
+        width: 100%;
+        margin-top: 5%;
+        background: transparent url('/img/Group 10.png') 0% 0% no-repeat padding-box;
+        opacity: 1;
+        .askUsContent {
+            width: 90%;
+            margin-left: 5%;
+        .chcetese {
+                text-align: center;
+                color:#273476;
+                .chcetese1 {
+                    font-size: 30px;
+                    margin-left: 30px;
+                    font-weight: bold;
+                    font-family: Bebas Neue;
+                    
+                }
+    
+                .chcetese2 {
+                    margin-left: 0px;
+                    text-align: center;
+                    font-size: 35px;
+                 }
+            }
+    
+            .askUsText {
+                text-align: left;
+                background-color: white;
+                font-size: 15px;
+                color: #273476;
+                width: 90%;
+                margin-left: 5%;
+                margin-top: 10%;
+                
+            }
+    
+            .contact {
+                background-color: white;
+                color: #273476;
+                text-align: left;
+                margin-left: 5%;
+                margin-top: 10%;
+                width: 90%;
+    
+            .name {
+                    font-size: 25px;
+                    font-weight: bold;
+                    color:#273476;
+                }
+    
+            .contactInfo {
+                font-size: 17px;
+            }
+            }
+        }
+
+        img {
+            position: relative;
+            width: 90%;
+            margin-right: -10%;
+            margin-bottom: -5%;
+            margin-top: 5%;
+        }
+    }
+}
