@@ -50,4 +50,55 @@
 }
 .versions .version .priceInfo span {
   text-decoration: underline;
+}
+
+@media only screen and (max-width: 375px) {
+  .versions {
+    width: 80%;
+    position: relative;
+    margin-left: 10%;
+    margin-top: 15%;
+    opacity: 1;
+  }
+  .versions .version img {
+    width: 80%;
+    margin-left: 10%;
+  }
+  .versions .version .flatsCount {
+    font-size: 35px;
+    text-align: center;
+    color: #273476;
+  }
+  .versions .version .price {
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+    color: #273476;
+  }
+  .versions .version .dotted-text {
+    display: flex;
+    flex-direction: row;
+    color: #273476;
+  }
+  .versions .version .dotted-text:before,
+.versions .version .dotted-text:after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 2px dotted;
+    margin: auto;
+  }
+  .versions .version .dotted-text:before {
+    margin-right: 10px;
+  }
+  .versions .version .dotted-text:after {
+    margin-left: 10px;
+  }
+  .versions .version .priceInfo {
+    font-size: 20px;
+    text-align: center;
+    color: #273476;
+  }
+  .versions .version .priceInfo span {
+    text-decoration: underline;
+  }
 }/*# sourceMappingURL=versions.css.map */

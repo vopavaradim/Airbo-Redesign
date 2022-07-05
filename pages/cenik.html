@@ -6,15 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="/styles/Default/default.css">
     <link rel="stylesheet" type="text/css" href="/styles/main.css">
-    
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Slab:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Slab:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="/scripts/navbar.js"></script>
     <title>Ceník | Airbo</title>
 </head>
 <body>
 
+<header>
     <div id="navbar">
         <nav>
             <img src="/img/logo.png">
@@ -30,8 +32,26 @@
         </nav>
     </div>
 
+    <div class="mobile-container">
+        <div class="mobile-navbar">
+          <img class="logo" src="/img/logo.png">
+          <img class="rectangles" src="mobileNavbarRectangles.png">
+          <div id="myLinks">
+            <a href="#">O aplikaci</a>
+            <a href="#">Ceník</a>
+            <a href="#">Návody</a>
+            <a href="#">Kontakty</a>
+            <a href="#" style="font-weight: bold;">Přihlásit se</a>
+            <button><a>Vyzkoušet na měsíc zdarma</a></button>
+          </div>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+        </div> 
+</header>
 <div id="content">
-    <div class="header">
+    <div class="headerText">
         <h1><span style="font-family: Bebas Neue;"><b>KOLIK</b></span><br>
             Airbo stojí? </h1>
     </div>
@@ -81,7 +101,7 @@
         <div class="version">
             <img src="/img/v3.png">
             <p class="flatsCount">Více než<br> 10 bytů</p>
-            <div class="dotted-text"> </div>
+            <hr style="border-top: none; border-bottom: dotted 2px #273476;">
             <p class="priceInfo"><span>Kontaktuje nás!</span><br>Na ceně se dohodneme</p>
         </div>
     </div>
@@ -115,7 +135,7 @@
         <img src="/img/klaraPhoto.png">
     </div> 
 
-     <div class="footer">
+    <div class="footer">
          <div class="footerImgs">
                 <img src="/img/facebookIcon.png">
                 <img src="/img/twitterIcon.png">
@@ -140,6 +160,6 @@
     </div>
     
 </div>
-    
+ 
 </body>
 </html>

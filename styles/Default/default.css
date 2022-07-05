@@ -8,7 +8,6 @@ body {
 
 /* NAVBAR */
 #navbar {
-  display: none;
   height: 22px;
   width: 100%;
 }
@@ -62,7 +61,6 @@ body {
 
 /* FOOTER */
 .footer {
-  display: none;
   width: 100%;
   bottom: 0;
   margin-top: 40%;
@@ -95,7 +93,6 @@ body {
 }
 
 .underFooter {
-  display: none;
   width: 26%;
   margin-left: 36%;
   margin-top: 20px;
@@ -108,78 +105,108 @@ body {
   text-decoration: underline;
 }
 
+.mobile-container {
+  display: none;
+}
+
 @media only screen and (max-width: 375px) {
   #navbar {
-    height: 22px;
-    width: 100%;
+    display: none;
   }
-  #navbar nav {
-    float: left;
-    width: 100%;
-    position: relative;
-    border-bottom: 2px solid #DEDEDE;
-  }
-  #navbar nav img {
-    float: left;
-    margin-left: 5%;
-  }
-  #navbar nav ul {
-    list-style: none;
-    margin-left: 826px;
-  }
-  #navbar nav ul li a {
-    float: left;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 22px;
-    padding-bottom: 22px;
-    font-size: 20px;
+
+  /* MOBILE NAVBAR */
+  .mobile-container {
+    display: block;
     cursor: pointer;
-    transition: ease 0.3s;
+    margin: auto;
+    height: 55px;
+    color: white;
+    border-radius: 10px;
   }
-  #navbar nav ul li a:hover {
-    background: linear-gradient(to top, #FF5A5F 0%, #FF5A5F 80%, #23347A 80%, #23347A 100%);
+  .mobile-container .logo {
+    width: 40%;
+    margin-top: -1%;
   }
-  #navbar nav ul li .login {
-    border-left: 1px solid #DEDEDE;
-    border-right: 1px solid #DEDEDE;
+  .mobile-container .rectangles {
+    display: none;
+    width: 212px;
+    position: relative;
   }
-  #navbar nav button {
+  .mobile-container .mobile-navbar {
+    overflow: hidden;
+    background-color: white;
+    position: relative;
+    border-bottom: 2px solid #CDD3F0;
+  }
+  .mobile-container .mobile-navbar #myLinks {
+    display: none;
+  }
+  .mobile-container .mobile-navbar #myLinks a {
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 22px;
+    text-align: center;
+    display: block;
+  }
+  .mobile-container .mobile-navbar #myLinks button {
+    width: 80%;
+    margin-left: 10%;
+    background-color: transparent;
     font-family: Bebas Neue;
-    border-radius: 20px;
     border-style: none;
-    padding: 15px;
+    padding-bottom: 50px;
+    letter-spacing: 2px;
+  }
+  .mobile-container .mobile-navbar #myLinks button a {
+    border-radius: 15px;
+    font-size: 20px;
+    color: white;
+    background-color: #273476;
+    text-transform: uppercase;
+    border-style: none;
+  }
+  .mobile-container .mobile-navbar a.icon {
+    background: #273476;
+    border-radius: 15px 0px 0px 15px;
+    color: white;
+    width: 60px;
+    height: 50px;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 3px;
+  }
+  .mobile-container .mobile-navbar a.icon i {
+    margin-left: 30%;
+    margin-top: 10%;
+    width: 80%;
+    font-size: 35px;
+    color: white;
+  }
+  .mobile-container .mobile-navbar a:hover {
     background-color: #273476;
     color: white;
-    font-size: 20px;
-    margin-left: 40px;
-    cursor: pointer;
   }
-  #navbar nav button:hover {
-    background-color: #171f44;
-    text-shadow: 3px white;
-    transition: ease 0.3s;
+  .mobile-container .mobile-navbar .active {
+    background-color: white;
+    color: white;
   }
 
   /* FOOTER */
   .footer {
-    width: 100%;
-    bottom: 0;
-    margin-top: 40%;
-    border-top: 2px dashed #CDD3F0;
-    border-bottom: 2px dashed #CDD3F0;
+    margin-top: 220%;
   }
   .footer .footerImgs {
-    position: relative;
-    width: 180px;
-    margin-left: 850px;
+    width: 80%;
+    margin-left: 20%;
     margin-bottom: 5%;
   }
   .footer .footerImgs img {
     float: left;
-    width: 70px;
-    padding: 10px;
-    margin-top: -50px;
+    width: 25%;
+    padding: 5%;
+    padding-left: 6%;
   }
   .footer .footerText {
     width: 40%;
@@ -195,15 +222,17 @@ body {
   }
 
   .underFooter {
-    width: 26%;
-    margin-left: 36%;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    width: 60%;
+    margin-left: 20%;
+  }
+  .underFooter .underFooterText {
+    width: 100%;
+    text-align: center;
   }
   .underFooter .underFooterText p a {
-    float: left;
-    padding: 20px;
+    float: none;
+    font-size: 15px;
+    text-align: center;
     color: #273476;
-    text-decoration: underline;
   }
 }/*# sourceMappingURL=default.css.map */

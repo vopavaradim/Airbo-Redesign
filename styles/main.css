@@ -1,23 +1,23 @@
-.header {
+.headerText {
   margin-left: 407px;
   height: 296px;
   background: transparent url("/img/headerBackground.png") 0% 0% no-repeat padding-box;
   opacity: 1;
 }
-.header h1 {
+.headerText h1 {
   font-size: 96px;
   color: #273476;
   margin-left: 291px;
 }
 
 @media only screen and (max-width: 375px) {
-  .header {
+  .headerText {
     margin-left: 20px;
     height: 120px;
     background: none;
     opacity: 1;
   }
-  .header h1 {
+  .headerText h1 {
     font-size: 50px;
     color: #273476;
     margin-left: 20px;
@@ -140,28 +140,29 @@ input:checked + .slider:before {
   }
 
   .switchSection {
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
     margin-top: 30%;
   }
   .switchSection p {
     float: left;
-    font-size: 15px;
-    position: relative;
+    font-size: 19px;
     color: #273476;
+    font-weight: bold;
+    padding-top: 2px;
   }
   .switchSection .switchButton {
     float: left;
     padding-left: 10px;
     padding-right: 10px;
+    margin-top: -2px;
   }
 
   .switch {
-    display: inline-block;
-    position: relative;
+    display: block;
     width: 65px;
-    height: 25px;
+    height: 35px;
   }
 
   .switch input {
@@ -172,8 +173,6 @@ input:checked + .slider:before {
 
   /* The slider */
   .slider {
-    position: absolute;
-    cursor: pointer;
     top: 0;
     left: 0;
     right: 0;
@@ -185,10 +184,10 @@ input:checked + .slider:before {
   .slider:before {
     position: absolute;
     content: "";
-    height: 24px;
+    height: 25px;
     width: 24px;
     left: 3px;
-    bottom: 3px;
+    bottom: 5px;
     top: 3px;
     background-color: white;
     transition: 0.4s;
@@ -203,12 +202,13 @@ input:checked + .slider:before {
   }
 
   input:checked + .slider:before {
-    transform: translateX(60px);
-    right: 3px;
+    transform: translateX(35px);
+    right: 5px;
   }
 
   .slider.round {
     border-radius: 34px;
+    margin-bottom: 5%;
   }
 
   .slider.round:before {
@@ -269,6 +269,56 @@ input:checked + .slider:before {
   text-decoration: underline;
 }
 
+@media only screen and (max-width: 375px) {
+  .versions {
+    width: 80%;
+    position: relative;
+    margin-left: 10%;
+    margin-top: 15%;
+    opacity: 1;
+  }
+  .versions .version img {
+    width: 80%;
+    margin-left: 10%;
+  }
+  .versions .version .flatsCount {
+    font-size: 35px;
+    text-align: center;
+    color: #273476;
+  }
+  .versions .version .price {
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+    color: #273476;
+  }
+  .versions .version .dotted-text {
+    display: flex;
+    flex-direction: row;
+    color: #273476;
+  }
+  .versions .version .dotted-text:before,
+.versions .version .dotted-text:after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 2px dotted;
+    margin: auto;
+  }
+  .versions .version .dotted-text:before {
+    margin-right: 10px;
+  }
+  .versions .version .dotted-text:after {
+    margin-left: 10px;
+  }
+  .versions .version .priceInfo {
+    font-size: 20px;
+    text-align: center;
+    color: #273476;
+  }
+  .versions .version .priceInfo span {
+    text-decoration: underline;
+  }
+}
 .buttonSection {
   width: 100%;
 }
@@ -401,7 +451,7 @@ input:checked + .slider:before {
   .askUs {
     width: 100%;
     margin-top: 5%;
-    background: transparent url("/img/Group 10.png") 0% 0% no-repeat padding-box;
+    background: transparent url("/img/bars.png") 0% 0% no-repeat padding-box;
     opacity: 1;
   }
   .askUs .askUsContent {
@@ -451,8 +501,7 @@ input:checked + .slider:before {
   .askUs img {
     position: relative;
     width: 90%;
-    margin-right: -10%;
-    margin-bottom: -5%;
-    margin-top: 5%;
+    margin-right: 0%;
+    margin-top: 2%;
   }
 }/*# sourceMappingURL=main.css.map */

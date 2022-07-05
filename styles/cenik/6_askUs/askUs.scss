@@ -63,7 +63,7 @@
     .askUs {
         width: 100%;
         margin-top: 5%;
-        background: transparent url('/img/Group 10.png') 0% 0% no-repeat padding-box;
+        background: transparent url('/img/bars.png') 0% 0% no-repeat padding-box;
         opacity: 1;
         .askUsContent {
             width: 90%;
@@ -120,9 +120,8 @@
         img {
             position: relative;
             width: 90%;
-            margin-right: -10%;
-            margin-bottom: -5%;
-            margin-top: 5%;
+            margin-right: 0%;
+            margin-top: 2%;
         }
     }
 }
