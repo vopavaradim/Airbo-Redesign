@@ -1,113 +1,50 @@
-.askUs {
-  width: 100%;
-  margin-top: 5%;
-  background: transparent url("/img/Group 10.png") 0% 0% no-repeat padding-box;
-  opacity: 1;
+.askUsSection {
+  background-image: url("/img/bars.png");
+  background-repeat: no-repeat;
+  padding: 0.5%;
 }
-.askUs .askUsContent {
-  width: 50%;
-  float: left;
-}
-.askUs .askUsContent .chcetese {
-  text-align: right;
+.askUsSection .askUsContent {
   color: #273476;
+  width: 382px;
+  margin-left: 606px;
 }
-.askUs .askUsContent .chcetese .chcetese1 {
-  font-size: 40px;
-  margin-left: 600px;
-  font-weight: bold;
+.askUsSection .askUsContent .chceteseBox {
+  line-height: 0.8;
+}
+.askUsSection .askUsContent .chceteseBox .chcetese {
+  font-size: 50px;
+}
+.askUsSection .askUsContent .chceteseBox .chcetese .chcetese1 {
   font-family: Bebas Neue;
+  margin-left: 30%;
 }
-.askUs .askUsContent .chcetese .chcetese2 {
+.askUsSection .askUsContent .askUsText {
+  background: #FFFFFF 0% 0% no-repeat padding-box;
   text-align: right;
-  font-size: 40px;
-  margin-left: 629px;
+  font-size: 18px;
+  color: #273476;
+  padding: 1px;
 }
-.askUs .askUsContent .askUsText {
+.askUsSection .askUsContent .contact {
+  width: 40%;
+  margin-left: 60%;
+  margin-top: 1.5%;
   text-align: right;
-  margin-left: 629px;
-  background-color: white;
-  font-size: 15px;
-  color: #273476;
-  width: 333px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  padding-left: -10%;
 }
-.askUs .askUsContent .contact {
-  background-color: white;
-  color: #273476;
-  text-align: right;
-  margin-left: 762px;
-  width: 200px;
+.askUsSection .askUsContent .contact .name {
+  font-size: 22px;
+  font-weight: bolder;
 }
-.askUs .askUsContent .contact .name {
-  font-size: 25px;
-  font-weight: bold;
-  color: #273476;
-}
-.askUs .askUsContent .contact .contactInfo {
-  font-size: 17px;
-}
-.askUs img {
-  float: right;
-  width: 20%;
-  margin-right: 25%;
-  margin-top: 5%;
+.askUsSection img {
+  position: absolute;
+  margin-top: -18%;
+  left: 1065px;
+  width: 414px;
+  height: 410px;
 }
 
-@media only screen and (max-width: 375px) {
-  .askUs {
-    width: 100%;
-    margin-top: 5%;
-    background: transparent url("/img/bars.png") 0% 0% no-repeat padding-box;
-    opacity: 1;
-  }
-  .askUs .askUsContent {
-    width: 90%;
-    margin-left: 5%;
-  }
-  .askUs .askUsContent .chcetese {
-    text-align: center;
-    color: #273476;
-  }
-  .askUs .askUsContent .chcetese .chcetese1 {
-    font-size: 30px;
-    margin-left: 30px;
-    font-weight: bold;
-    font-family: Bebas Neue;
-  }
-  .askUs .askUsContent .chcetese .chcetese2 {
-    margin-left: 0px;
-    text-align: center;
-    font-size: 35px;
-  }
-  .askUs .askUsContent .askUsText {
-    text-align: left;
-    background-color: white;
-    font-size: 15px;
-    color: #273476;
-    width: 90%;
-    margin-left: 5%;
-    margin-top: 10%;
-  }
-  .askUs .askUsContent .contact {
-    background-color: white;
-    color: #273476;
-    text-align: left;
-    margin-left: 5%;
-    margin-top: 10%;
-    width: 90%;
-  }
-  .askUs .askUsContent .contact .name {
-    font-size: 25px;
-    font-weight: bold;
-    color: #273476;
-  }
-  .askUs .askUsContent .contact .contactInfo {
-    font-size: 17px;
-  }
-  .askUs img {
-    position: relative;
-    width: 90%;
-    margin-right: 0%;
-    margin-top: 2%;
-  }
+.margin {
+  margin-top: 10%;
 }/*# sourceMappingURL=askUs.css.map */

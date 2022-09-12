@@ -1,64 +1,71 @@
-.versions {
-    width: 80%;
-    position: relative;
-    background-image: url('../img/7.png');
-    margin-left: 5%;
-    margin-top: 15%;
-    opacity: 1;
+.versionsContainer {
+  background-image: url("/img/guide/legaslitivaBackground.png");
+  padding-bottom: 5%;
+  padding-top: -10%;
+  margin-top: 12%;
 
-    .version {
-        float: left;
-        padding: 20px;
-        
-        img {
-        width: 80%;
-        margin-left: 10%;
-        }
+  .versions {
+      width: 80%;
+      margin-left: 20%;
+      opacity: 1;
+      display: flex;
 
-        .flatsCount {
-            font-size: 35px;
-            text-align: center;
-            color: #273476;
-        }
-
-        .price {
-            font-size: 45px;
-            text-align: center;
-            font-weight: bold;
-            color: #273476;
-        }
-
-        .dotted-text {
-            display: flex;
-            flex-direction: row;
-            color: #273476;
-          }
+      .version {
+          float: left;
+          padding: 20px;
+          position: relative;
+          margin-top: -3%;
           
-          .dotted-text:before, 
-          .dotted-text:after{
-            content: "";
-            flex: 1 1;
-            border-bottom: 2px dotted;
-            margin: auto;
+          img {
+          width: 80%;
+          margin-left: 10%;
           }
-          
-          .dotted-text:before {
-            margin-right: 10px;
-          }
-          
-          .dotted-text:after {
-            margin-left: 10px;
-          }
-        .priceInfo {
-            font-size: 20px;
-            text-align: center;
-            color: #273476;
 
-            span {
-                text-decoration: underline;
+          .flatsCount {
+              font-size: 35px;
+              text-align: center;
+              color: #273476;
+          }
+
+          .price {
+              font-size: 45px;
+              text-align: center;
+              font-weight: bold;
+              color: #273476;
+          }
+
+          .dotted-text {
+              display: flex;
+              flex-direction: row;
+              color: #273476;
             }
-        }
-    }
+            
+            .dotted-text:before, 
+            .dotted-text:after{
+              content: "";
+              flex: 1 1;
+              border-bottom: 2px dotted;
+              margin: auto;
+            }
+            
+            .dotted-text:before {
+              margin-right: 10px;
+            }
+            
+            .dotted-text:after {
+              margin-left: 10px;
+            }
+          .priceInfo {
+              font-size: 20px;
+              text-align: center;
+              color: #273476;
+
+              span {
+                  text-decoration: underline;
+              }
+          }
+      }
+  }
 }
 
 @media only screen and (max-width: 375px) {

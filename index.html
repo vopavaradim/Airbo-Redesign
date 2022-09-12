@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/styles/Default/default.css">
+    <link rel="stylesheet" type="text/css" href="/styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Slab:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="/scripts/navbar.js"></script>
+    <title>Airbo.cz</title>
+</head>
+<body>
+
+<header>
+    <div id="navbar">
+        <nav>
+            <img onclick="goHP()" src="/img/logo.png">
+            <ul>
+                <li><a href="/about.html">O aplikaci</a></li>
+                <li><a href="/cenik.html">Ceník</a></li>
+                <li><a href="/navody.html">Návody</a></li>
+                <li><a href="/kontakty.html">Kontakty</a></li>
+                <li><a class="login" href="https://app.airbo.cz/prihlasit">Přihlásit se</a></li>
+            </ul>
+
+            <button onclick="goRegister()">VYZKOUŠET NA MĚSÍC ZDARMA</button>
+        </nav>
+    </div>
+
+    <div class="mobile-container">
+        <div class="mobile-navbar">
+          <img class="logo" src="/img/logo.png">
+          <img class="rectangles" src="mobileNavbarRectangles.png">
+          <div id="myLinks">
+            <a href="#">O aplikaci</a>
+            <a href="/pages/cenik.html">Ceník</a>
+            <a href="#">Návody</a>
+            <a href="#">Kontakty</a>
+            <a href="#" style="font-weight: bold;">Přihlásit se</a>
+            <button><a>Vyzkoušet na měsíc zdarma</a></button>
+          </div>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+        </div> 
+</header>
+<div id="content">
+    <div>
+    <!-- Intro -->
+    <img class="headerCover" src="/img/homepage/headerCover.png">
+    <img class="navbarShapes" src="/img/homepage/navbarShapes.png">
+    <img class="rectangle" src="/img/homepage/rectangle.png">
+    <div class="intro">
+        <div class="info">
+          <div class="infoContent">
+            <div class="onlineBook">
+                <p><span class="online">ONLINE</span><br>
+                <span class="book">ubytovací kniha</span></p>
+            </div>
+            <div class="hero__highlightWrap2">
+                <div class="hero__highlight2">
+                  Věnujte se hostům <br> Papírování nechte na nás
+                </div>
+            </div>
+            <p class="infoText">Airbo je chytrá aplikace, která vás zbaví starostí s únavnou administrativou. Vyplní ubytovací knihu, spočítá poplatek z pobytu, doplní potřebné formuláře, nahlásí pobyt cizinců cizinecké policii.</p>       
+            <button class="createAccount" onclick="goRegister()">Založte si účet</button>
+            <p><span class="prvniMesic">1. měsíc zdarma:</span><br>
+                <span class="nekupujteZajice">Nekupujte zajíce v pytli! Appku si nejdřív vyzkoušejte.</span></p>
+        </div>
+        </div>
+
+    </div>
+
+
+
+    <div class="headerText underIntro">
+        <h1><span style="font-family: Bebas Neue;"><b>PROČ</b></span><br>
+            Airbo? </h1>
+    </div>
+
+
+    <div class="dashedLine"></div>
+    <img class="house" src="/img/homepage/house.png">
+
+    <!-- Tips -->
+
+    <div class="tips">
+        <div class="tipLeft">
+            <img src="/img/homepage/1.png">
+            <div class="textRight">
+                <p class="headline">Nebudete<br>imigrační úředník</p>
+                <p class="tipContent">Přivítejte hosty milým úsměvem, a ne žádostí o pasy. Ještě před příjezdem jim pošlete on-line formulář, kam potřebné informace vyplní pohodlně z mobilu nebo počítače a údaje stvrdí svým podpisem.</p>
+            </div>
+        </div>
+
+        <div class="tipRight">
+            <div class="textLeft">
+                <p class="headline">Vystačíte si<br> jen s mobilem</p>
+                <p class="tipContent">Hosté údaje vyplňují sami on-line.<br>Evidence na cizinecké policii, zápisy do ubytovací knihy a výpočet poplatků probíhá buď automaticky, nebo vystačíte s jedním kliknutím.</p>
+            </div>
+            <img src="/img/homepage/2.png">
+        </div>
+
+        <div class="tipLeft">
+            <img src="/img/homepage/3.png">
+            <div class="textRight">
+                <p class="headline">Získáte dokonalý přehled</p>
+                <p class="tipContent">Aplikace ukládá všechny informace přehledně do řádků ubytovací knihy, vede měsíční přehledy o sumě poplatků z pobytu i kompletní přehled o všech vašich rezervacích. Ty si stahuje automaticky z hlavních rezervačních platforem.</p>             
+            </div>
+        </div>
+    </div>
+
+    <p class="text">Podívejte se na všechny funkce aplikace <a href="#">podrobně</a></p>
+    
+    <!-- More -->
+
+    <div class="moreSection">
+        <img class="moreShapes" src="/img/homepage/moreShapes.png">
+        <img class="phoneIMG" src="/img/homepage/phone.png">
+        <img class="ntbIMG" src="/img/homepage/laptop.png">
+
+        <div class="moreHeadline">
+                <h1><span style="font-family: Bebas Neue;"><b>A</b></span><br>
+                    navíc... </h1>
+        </div>
+
+        <div class="text">
+            <p class="headline">Jednoduché ovládání<br> v mobilu i počítači</p>
+            <p>Aplikace je hodně intuitivní. Sama vám napoví, co které ikony znamenají. Aby se vám s ní pracovalo co nejlíp hned od začátku, připravili jsme pro vás videoprůvodce.</p>
+            <button onclick="goGuide()">PODÍVAT SE NA NÁVODY</button>
+        </div>
+    </div>
+
+    <!-- More II -->
+
+    <div class="moreSectionII">
+
+        <div class="circleObj"></div>
+        <img class="peopleTriangle" src="/img/homepage/peopleTriangle.png">
+
+        <div class="content">
+            <div class="contentHeading">
+                <p><span class="data">Data</span><br>
+                <span class="strezime">střežíme</span><br>
+                <span class="jako">jako oko v hlavě</span></p>
+            </div>
+            <div class="contentText">
+                <p>Cokoliv nám o sobě řeknete, je u nás v bezpečí:</p>
+
+                <p>• Řídíme se strikně podle GDPR.<br>
+                • Data hostů uchováváme maximálně 6 měsíců zpětně.<br>
+                • Ve formuláři pro hosty nepoužíváme žádné cookies.</p>
+            </div>
+
+            <div class="read">
+                <h1>Přečtete si:</h1>
+                <a href="#">Lidsky psané obchodní podmínky</a><br>
+                <a href="#">Jak pracujeme s osobními údaji</a><br>
+                <a href="#">Seznam našich zpracovatelů</a>
+            </div>
+
+
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+
+
+    <!-- Button Section-->
+
+    <div class="buttonSectionHP">
+        <button onclick="goRegister()">ZKUSTE MĚSÍC ZDARMA</button>
+        <p class="secondTitle">Všechny funkce bez omezení!<br>
+         <span>Všechny funkce bez omezení. Nekupujte zajíce v pytli! Appku si nejdřív vyzkoušejte.</span></p>
+    </div>
+
+    <div class="askUsSection">
+        <div class="askUsContent">
+            <div class="chceteseBox">
+                <p class="chcetese"><span class="chcetese1">CHCETE SE</span><br><span class="chcetese2">na něco zeptat?</span></p>
+            </div>
+            <div class="askUsText">
+                <p>Možná vás něco napadlo při sledování videí.<br>
+                Nebo máte jakýkoliv jiný dotaz?<br>
+                Zavolejte - jsme tu pro vás.<br>
+                A můžeme se spojit i přes videokonferenci.</p>
+            </div>
+            <div class="contact">
+                <p><span class="name">Klára Vávrová</span> <br> 
+                    <span class="contactInfo"><a href="tel:608 371 261" style="text-decoration: none; color: #273476;">+420 608 371 261</a></span><br>
+                    <span class="contactInfo"><a href="mailto:airbo@airbo.cz" style="text-decoration: underline; color:#273476;">airbo@airbo.cz</a></span>
+                </p>
+            </div>
+
+        </div>
+        <img src="/img/klaraPhoto.png">
+    </div> 
+
+    <div class="footerBlock">
+        <div class="footer">
+            <div class="footerImgs">
+                <a href="https://www.facebook.com/airbocz"><img src="/img/facebookIcon.png"></a>
+                <img src="/img/twitterIcon.png">
+            </div>
+            <div class="footerText">
+                <p>Airbo s.r.o., U Gymnázia 1233/1, 140 00 Praha 4 </p>
+                <p>IČ 08590184</p>
+                <p href="tel: 608371261">+420 608 371 261 </p>
+                <p href="mailto: airbo@airbo.cz" style="text-decoration: underline;">airbo@airbo.cz</p>
+                <p class="all">Všechny kontakty</p>
+            </div>
+        </div>
+
+        <div class="underFooter">
+            <div class="underFooterText">
+                <p><a href="#">GDPR</a></p>
+                <p><a href="#">Obchodní podmínky</a></p>
+                <p><a href="#">Seznam zpracovatelů</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

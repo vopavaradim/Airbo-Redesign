@@ -1,0 +1,87 @@
+.dashedLine {
+    margin-top: 1%;
+    position: absolute;
+    width: 43%;
+    height: 1000px;
+    left: 0;
+    border-right: 2px dashed #CDD3F0;
+}
+
+.tips {
+    position: relative;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+
+    .tipLeft {
+        margin-top: 7%;
+        display: flex;
+        width: 100%;
+        img {
+            float: left;
+            width: 40%;
+            height: 40%;
+        }
+
+        .textRight {
+            color: #273476;
+            margin-left: 5%;
+            float: left;
+            width: 40%;
+
+            .headline  {
+                font-size: 35px;
+                font-weight: bold;
+            }
+
+            .tipContent {
+                font-size: 15px;
+            }
+
+        }
+
+    }
+
+    .tipRight {
+        margin-top: 7%;
+        margin-left: -12%;
+        display: flex;
+        width: 100%;
+        img {
+            float: right;
+            width: 35%;
+            height: 35%;
+            margin-top: 5%;
+        }
+
+        .textLeft {
+            color: #273476;
+            text-align: left;
+            width: 40%;
+            margin-right: 5%;
+
+            .headline  {
+                text-align: right;
+                font-size: 35px;
+                font-weight: bold;
+            }
+
+            .tipContent {
+                text-align: right;
+            }
+
+        }
+
+    }
+}
+
+.text {
+    color:#273476;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 5%;
+
+    a {
+        color:#273476
+    }
+}

@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/styles/Default/default.css">
+    <link rel="stylesheet" type="text/css" href="/styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Slab:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="/scripts/navbar.js"></script>
+    <title>Návody | Airbo</title>
+</head>
+<body>
+    <header>
+        <div id="navbar">
+            <nav>
+                <img onclick="goHP()" src="/img/logo.png">
+                <ul>
+                    <li><a href="/about.html">O aplikaci</a></li>
+                    <li><a href="/cenik.html">Ceník</a></li>
+                    <li><a href="/navody.html">Návody</a></li>
+                    <li><a href="/kontakty.html">Kontakty</a></li>
+                    <li><a class="login" href="https://app.airbo.cz/prihlasit">Přihlásit se</a></li>
+                </ul>
+    
+                <button onclick="goRegister()">VYZKOUŠET NA MĚSÍC ZDARMA</button>
+            </nav>
+        </div>
+    
+        <div class="mobile-container">
+            <div class="mobile-navbar">
+              <img class="logo" src="/img/logo.png">
+              <img class="rectangles" src="mobileNavbarRectangles.png">
+              <div id="myLinks">
+                <a href="#">O aplikaci</a>
+                <a href="#">Ceník</a>
+                <a href="#">Návody</a>
+                <a href="#">Kontakty</a>
+                <a href="#" style="font-weight: bold;">Přihlásit se</a>
+                <button><a>Vyzkoušet na měsíc zdarma</a></button>
+              </div>
+              <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+              </a>
+            </div>
+            </div> 
+    </header>
+
+    <div id="content">
+        <div class="headerTextCircles">
+            <h1><span style="font-family: Bebas Neue;"><b>JAK</b></span><br>
+                začít s Airbem? </h1>
+        </div>
+
+    <!-- Guide -->
+
+        <div class="reverseHorizontal"> </div>
+        <div class="orangeObj"> </div>
+        <div class="redRoof"> </div>
+        <div class="greenObj"> </div>
+        <div class="reverseVertical"> </div>
+
+        <!-- Red Numbers-->
+
+        <div class="container-red">
+            <a class="bigLink" href="#">
+                <div class="bigLink__wrap">
+                <div class="bigLink__number bigLink__number--first">01</div> 
+                <div class="bigLink__main">
+                    <div class="bigLink__title">
+                    Napojení na kalendář AirBnb
+                    </div> 
+                    <div class="bigLink__desc">
+                    Stručný návod k získání URL adresy icalu z Airbnb
+                    </div> 
+                </div>
+                <img src="https://www.munipolis.cz/images/front/arrow-right.svg" alt="" class="bigLink__arrow"> 
+                </div>
+            </a>
+
+            <a class="bigLink" href="#">
+                <div class="bigLink__wrap">
+                        <div class="bigLink__number">02</div> 
+                        <div class="bigLink__main">
+                            <div class="bigLink__title">
+                                Datová schránka - založení
+                            </div> 
+                            <div class="bigLink__desc">
+                                Stručný návod k získání datové schránky.
+                            </div> 
+                        </div>
+                    <img src="https://www.munipolis.cz/images/front/arrow-right.svg" alt="" class="bigLink__arrow">                         
+                </div>
+            </a>
+
+            <a class="bigLink" href="#">
+                <div class="bigLink__wrap">
+                    <div class="bigLink__number">03</div> 
+                        <div class="bigLink__main">
+                            <div class="bigLink__title">
+                                Poplatek z pobytu - registrace a placení
+                            </div> 
+                            <div class="bigLink__desc">
+                                Stručný návod jak registrovat ubytovací zařízení pro hlášení a platbu poplatku z pobytu.
+                            </div> 
+                        </div>
+                    <img src="https://www.munipolis.cz/images/front/arrow-right.svg" alt="" class="bigLink__arrow"> 
+                </div>
+            </a>
+
+            <a class="bigLink" href="#">
+                <div class="bigLink__wrap">
+                    <div class="bigLink__number">04</div> 
+                        <div class="bigLink__main">
+                            <div class="bigLink__title">
+                                Cizinecká policie - registrace do Ubyportu
+                            </div> 
+                            <div class="bigLink__desc">
+                                Stručný návod, krok za krokem, jak registrovat své ubytovací zařízení do aplikace Ubyport.                  </div> 
+                            </div>
+                    <img src="https://www.munipolis.cz/images/front/arrow-right.svg" alt="" class="bigLink__arrow"> 
+                </div>
+            </a>
+
+            <a class="bigLink" href="#">
+                <div class="bigLink__wrap">
+                        <div class="bigLink__number">05</div> 
+                            <div class="bigLink__main">
+                                <div class="bigLink__title">
+                                    První spuštění
+                                </div> 
+                                <div class="bigLink__desc">
+                                    Informační článek, který uživatelel aplikace Airbo vede krok za krokem k úspěšnému vyplnění všech potřebných informací.
+                                </div> 
+                            </div>
+                    <img src="https://www.munipolis.cz/images/front/arrow-right.svg" alt="" class="bigLink__arrow"> 
+                </div>
+            </a>
+
+        </div>
+        <!--Green Numbers-->
+
+        <div class="legaslitiva-header">
+            <div class="headerText">
+                <h1><span style="font-family: Bebas Neue;"><b>JAK</b></span><br>
+                    na legaslitivu? </h1>
+            </div>
+        </div>
+        <div class="guider-legaslitiva"> 
+            <div class="guider">
+                <div class="container-green">
+                    <a class="bigLink" href="#">
+                        <div class="bigLink__wrap">
+                        <div class="bigLink__number bigLink__number--first">01</div> 
+                        <div class="bigLink__main">
+                            <div class="bigLink__title">
+                                Návod pro začínající ubytovatele
+                            </div> 
+                            <div class="bigLink__desc">
+                                Stručný popis povinností, které musíe provozovatel krátkodobých povinností plint.
+                            </div> 
+                        </div>
+                        <img src="https://www.munipolis.cz/images/front/arrow-right.svg" alt="" class="bigLink__arrow"> 
+                        </div>
+                    </a>
+            
+                    <a class="bigLink" href="#">
+                        <div class="bigLink__wrap">
+                                <div class="bigLink__number">02</div> 
+                                <div class="bigLink__main">
+                                    <div class="bigLink__title">
+                                        DPH ze zahraničí - Identifikovavá osoba
+                                    </div> 
+                                    <div class="bigLink__desc">
+                                        Informační článek k problematice platby DPH ze zahraničí.
+                                    </div> 
+                                </div>
+                            <img src="https://www.munipolis.cz/images/front/arrow-right.svg" alt="" class="bigLink__arrow">                         
+                        </div>
+                    </a>
+            
+                    <a class="bigLink" href="#">
+                        <div class="bigLink__wrap">
+                            <div class="bigLink__number">03</div> 
+                                <div class="bigLink__main">
+                                    <div class="bigLink__title">
+                                        Poplatek z pobytu a Ubytovací kniha
+                                    </div> 
+                                    <div class="bigLink__desc">
+                                        Informační článek o poplatcích z ubytování a vedení ubytovací knihy.
+                                    </div> 
+                                </div>
+                            <img src="https://www.munipolis.cz/images/front/arrow-right.svg" alt="" class="bigLink__arrow"> 
+                        </div>
+                    </a>
+            
+                    <a class="bigLink" href="#">
+                        <div class="bigLink__wrap">
+                            <div class="bigLink__number">04</div> 
+                                <div class="bigLink__main">
+                                    <div class="bigLink__title">
+                                        Hlášení krátkodobého pobytu cizinců cizinecké policii ČR
+                                    </div> 
+                                    <div class="bigLink__desc">
+                                        Informační článek k problematice krátkodobého pobytu cizinců na území ČR.                  </div> 
+                                    </div>
+                            <img src="https://www.munipolis.cz/images/front/arrow-right.svg" alt="" class="bigLink__arrow"> 
+                        </div>
+                    </a>
+            
+                    <a class="bigLink" href="#">
+                        <div class="bigLink__wrap">
+                                <div class="bigLink__number">05</div> 
+                                    <div class="bigLink__main">
+                                        <div class="bigLink__title">
+                                            Jak danit ubytovací služby (od roku 2018)
+                                        </div> 
+                                        <div class="bigLink__desc">
+                                            Informační článek o tom jak odvádět daň z příjmu krátkodobých pronájmů.
+                                        </div> 
+                                    </div>
+                            <img src="https://www.munipolis.cz/images/front/arrow-right.svg" alt="" class="bigLink__arrow"> 
+                        </div>
+                    </a>
+
+                    <a class="bigLink" href="#">
+                        <div class="bigLink__wrap">
+                                <div class="bigLink__number">06</div> 
+                                    <div class="bigLink__main">
+                                        <div class="bigLink__title">
+                                            Ubytovací služby - ohlášení a označení provozovny
+                                        </div> 
+                                        <div class="bigLink__desc">
+                                            Informační článek k ohlášení a označení provozovny krátkodobého ubytování tak, aby vyhovovala případné kontrole živnostenského úřadu.
+                                        </div> 
+                                    </div>
+                            <img src="https://www.munipolis.cz/images/front/arrow-right.svg" alt="" class="bigLink__arrow"> 
+                        </div>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="greenObj2"></div>
+
+            <div class="redHalfCircle"></div>
+        </div>
+    </div>
+
+
+
+    <div class="askUsSection">
+        <div class="askUsContent">
+            <div class="chceteseBox">
+                <p class="chcetese"><span class="chcetese1">CHCETE SE</span><br><span class="chcetese2">na něco zeptat?</span></p>
+            </div>
+
+            <div class="askUsText">
+                <p>Možná vás něco napadlo při sledování videí.<br>
+                Nebo máte jakýkoliv jiný dotaz?<br>
+                Zavolejte - jsme tu pro vás.<br>
+                A můžeme se spojit i přes videokonferenci.</p>
+            </div>
+            <div class="contact">
+                <p><span class="name">Klára Vávrová</span> <br> 
+                    <span class="contactInfo"><a href="tel:608 371 261" style="text-decoration: none; color: #273476;">+420 608 371 261</a></span><br>
+                    <span class="contactInfo"><a href="mailto:airbo@airbo.cz" style="text-decoration: underline; color:#273476;">airbo@airbo.cz</a></span>
+                </p>
+            </div>
+
+        </div>
+        <img src="/img/klaraPhoto.png">
+    </div> 
+
+
+    <div class="footerBlock">
+        <div class="footer">
+            <div class="footerImgs">
+                    <a href="https://www.facebook.com/airbocz"><img src="/img/facebookIcon.png"></a>
+                <img src="/img/twitterIcon.png">
+            </div>
+            <div class="footerText">
+                <p>Airbo s.r.o., U Gymnázia 1233/1, 140 00 Praha 4 </p>
+                <p>IČ 08590184</p>
+                <p href="tel: 608371261">+420 608 371 261 </p>
+                <p href="mailto: airbo@airbo.cz" style="text-decoration: underline;">airbo@airbo.cz</p>
+
+                <p class="all">Všechny kontakty</p>
+            </div>
+
+        </div>
+
+        <div class="underFooter">
+            <div class="underFooterText">
+                <p><a href="#">GDPR</a></p>
+                <p><a href="#">Obchodní podmínky</a></p>
+                <p><a href="#">Seznam zpracovatelů</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

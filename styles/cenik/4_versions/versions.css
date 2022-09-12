@@ -1,54 +1,60 @@
-.versions {
-  width: 80%;
-  position: relative;
-  background-image: url("../img/7.png");
-  margin-left: 5%;
-  margin-top: 15%;
-  opacity: 1;
+.versionsContainer {
+  background-image: url("/img/guide/legaslitivaBackground.png");
+  padding-bottom: 5%;
+  padding-top: -10%;
+  margin-top: 12%;
 }
-.versions .version {
+.versionsContainer .versions {
+  width: 80%;
+  margin-left: 20%;
+  opacity: 1;
+  display: flex;
+}
+.versionsContainer .versions .version {
   float: left;
   padding: 20px;
+  position: relative;
+  margin-top: -3%;
 }
-.versions .version img {
+.versionsContainer .versions .version img {
   width: 80%;
   margin-left: 10%;
 }
-.versions .version .flatsCount {
+.versionsContainer .versions .version .flatsCount {
   font-size: 35px;
   text-align: center;
   color: #273476;
 }
-.versions .version .price {
+.versionsContainer .versions .version .price {
   font-size: 45px;
   text-align: center;
   font-weight: bold;
   color: #273476;
 }
-.versions .version .dotted-text {
+.versionsContainer .versions .version .dotted-text {
   display: flex;
   flex-direction: row;
   color: #273476;
 }
-.versions .version .dotted-text:before,
-.versions .version .dotted-text:after {
+.versionsContainer .versions .version .dotted-text:before,
+.versionsContainer .versions .version .dotted-text:after {
   content: "";
   flex: 1 1;
   border-bottom: 2px dotted;
   margin: auto;
 }
-.versions .version .dotted-text:before {
+.versionsContainer .versions .version .dotted-text:before {
   margin-right: 10px;
 }
-.versions .version .dotted-text:after {
+.versionsContainer .versions .version .dotted-text:after {
   margin-left: 10px;
 }
-.versions .version .priceInfo {
+.versionsContainer .versions .version .priceInfo {
   font-size: 20px;
   text-align: center;
   color: #273476;
 }
-.versions .version .priceInfo span {
+.versionsContainer .versions .version .priceInfo span {
   text-decoration: underline;
 }
 

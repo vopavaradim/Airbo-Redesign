@@ -1,0 +1,82 @@
+.dottedBack {
+  position: absolute;
+  z-index: -1;
+  top: 650px;
+  width: 45%;
+  height: 2200px;
+  left: 0;
+  border-right: 2px dashed #CDD3F0;
+}
+
+.contentHowTo {
+  position: relative;
+  z-index: 1;
+}
+.contentHowTo .howToBlock {
+  width: 80%;
+  margin-left: 15%;
+  margin-top: 3%;
+  display: flex;
+}
+.contentHowTo .howToBlock .preview {
+  top: 636px;
+  left: 399px;
+  width: 600px;
+  height: 370px;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1607843137);
+  opacity: 1;
+}
+.contentHowTo .howToBlock .previewText {
+  top: 685px;
+  width: 40%;
+  margin-left: 5%;
+  text-align: left;
+  color: #273476;
+}
+.contentHowTo .howToBlock .previewText .previewHeadline {
+  font-size: 45px;
+}
+.contentHowTo .howToBlock .previewText .previewInfo {
+  font-size: 18px;
+}
+.contentHowTo .howToBlock .previewText .sponsors {
+  margin-top: 5%;
+  display: flex;
+}
+.contentHowTo .howToBlock .previewText .sponsors img {
+  padding-right: 50px;
+}
+.contentHowTo .howToBlockReverse {
+  width: 80%;
+  margin-left: 8%;
+  margin-top: 3%;
+  display: flex;
+}
+.contentHowTo .howToBlockReverse .preview {
+  top: 636px;
+  left: 920px;
+  width: 600px;
+  height: 370px;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1607843137);
+  opacity: 1;
+}
+.contentHowTo .howToBlockReverse .previewText {
+  left: 381px;
+  width: 40%;
+  margin-right: 5%;
+  text-align: right;
+  color: #273476;
+}
+.contentHowTo .howToBlockReverse .previewText .previewHeadline {
+  font-size: 45px;
+}
+.contentHowTo .howToBlockReverse .previewText .previewInfo {
+  font-size: 18px;
+}
+.contentHowTo .howToBlockReverse .previewText .sponsors {
+  margin-top: 5%;
+  display: flex;
+}
+.contentHowTo .howToBlockReverse .previewText .sponsors img {
+  padding-right: 50px;
+}/*# sourceMappingURL=slides.css.map */

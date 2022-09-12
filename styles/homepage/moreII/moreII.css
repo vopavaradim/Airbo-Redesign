@@ -1,0 +1,54 @@
+.moreSectionII {
+  margin-bottom: 40%;
+}
+.moreSectionII .circleObj {
+  left: 0px;
+  width: 158px;
+  height: 158px;
+  border-radius: 0px 264px 0px 0px;
+  background-color: #CDD3F0;
+  position: absolute;
+  margin-top: 350px;
+}
+.moreSectionII .peopleTriangle {
+  left: 179px;
+  width: 584px;
+  height: 506px;
+  position: absolute;
+}
+.moreSectionII .content {
+  position: absolute;
+  margin-top: 5%;
+  width: 55%;
+  margin-left: 45%;
+  color: #273476;
+  text-align: left;
+}
+.moreSectionII .content .contentHeading {
+  line-height: 0.9;
+}
+.moreSectionII .content .contentHeading .data {
+  font-size: 97px;
+  font-family: Bebas Neue;
+}
+.moreSectionII .content .contentHeading .strezime {
+  font-size: 97px;
+}
+.moreSectionII .content .contentHeading .jako {
+  font-size: 30px;
+}
+.moreSectionII .content .contentText {
+  margin-top: 5%;
+}
+.moreSectionII .content .read {
+  margin-top: 5%;
+  border-top: 2px dashed #CDD3F0;
+}
+.moreSectionII .content .read h1 {
+  font-size: 45px;
+}
+.moreSectionII .content .read a {
+  text-decoration: underline;
+  cursor: pointer;
+  color: #273476;
+}/*# sourceMappingURL=moreII.css.map */

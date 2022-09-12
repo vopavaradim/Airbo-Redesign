@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/styles/Default/default.css">
+    <link rel="stylesheet" type="text/css" href="/styles/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Slab:wght@300;400&display=swap" rel="stylesheet">
+    <title>O aplikaci | Airbo</title>
+</head>
+<body>
+
+<header>
+    <div id="navbar">
+        <nav>
+            <img onclick="goHP()" src="/img/logo.png">
+            <ul>
+                <li><a href="/about.html">O aplikaci</a></li>
+                <li><a href="/cenik.html">Ceník</a></li>
+                <li><a href="/navody.html">Návody</a></li>
+                <li><a href="/kontakty.html">Kontakty</a></li>
+                <li><a href="https://app.airbo.cz/prihlasit" class="login">Přihlásit se</a></li>
+            </ul>
+
+            <button onclick="goRegister()">VYZKOUŠET NA MĚSÍC ZDARMA</button>
+        </nav>
+    </div>
+
+    <div class="mobile-container">
+        <div class="mobile-navbar">
+          <img class="logo" src="/img/logo.png">
+          <img class="rectangles" src="mobileNavbarRectangles.png">
+          <div id="myLinks">
+            <a href="#">O aplikaci</a>
+            <a href="#">Ceník</a>
+            <a href="#">Návody</a>
+            <a href="#">Kontakty</a>
+            <a href="#" style="font-weight: bold;">Přihlásit se</a>
+            <button onclick="goRegister()">Vyzkoušet na měsíc zdarma</button>
+          </div>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+        </div> 
+</header>
+
+<!-- Content -->
+
+<div id="content">
+
+
+    <!-- Header -->
+
+    <div class="aboutHeader">
+
+        <div class="backgroundShapes">
+            <div class="circle"></div>
+            <div class="redTriangle"></div>
+            <div class="square"></div>
+            <div class="blueCircle"></div>
+            <div class="orangeTriangle"></div>
+            <div class="whiteCircle"></div>
+
+
+        </div>
+
+        <div class="headlineParagraph">
+            <h1><span style="font-family: Bebas Neue;"><b>JAK</b></span><br>
+                Airbo funguje? </h1>
+
+            <p class="headerTextInfo">Aplikaci Airbo jsme vyvinuli speciálně pro vás, provozovatele krátkodobého ubytování. Odbaví za vás všechny formality a zákonné povinnosti spojené s krátkodobým ubytováním. Díky tomu budete mít víc času věnovat se svým hostům.</p>
+        </div>
+    </div>
+
+
+<!-- Slides -->
+
+    <div class="dottedBack"></div>
+
+    <div class="contentHowTo">
+        <div class="howToBlock">
+            <div class="preview"></div>
+            <div class="previewText">
+                <p class="previewHeadline">Šetří čas a nervy</p>
+                <p class="previewInfo">• automaticky načítá nové rezervace z hlavních ubytovacích portálů<br>
+                    • sama hlídá, jestli hosté vyplnili všechno správně a včas<br>
+                    • pošle data hostů cizinecké policii a zapíše je do knihy<br>
+                    • spočítá za vás ubytovací poplatky</p>
+
+                    <div class="sponsors">
+                        <img src="/img/about/Sponsors/airbnb.png">
+                        <img src="/img/about/Sponsors/booking.png">
+                        <img src="/img/about/Sponsors/echalupy.png">
+                        <img src="/img/about/Sponsors/beds24.png">
+                    </div>
+            
+            </div>
+        </div>
+        <div class="howToBlockReverse">
+            <div class="previewText">
+                <p class="previewHeadline">Komunikace s hosty</p>
+                <p class="previewInfo">Přímo z aplikace proto můžete z detailu jednotlivých rezervací vstupovat rovnou do komunikace s hostem na Airbnb/Booking atd. Sem vložíte jedinečný link vygenerovaný aplikací. Kliknutím na něj se dostanete přímo do formulářů, kde pohodlně vyplní všechno potřebné. A jde to i obráceně. Do Airba zadáte kontakntí email svého hosta a aplikace ho sama odešle s výzvou k vyplnění formuláře.</p>
+            </div>
+            <div class="preview"></div>
+        </div>
+
+        <div class="howToBlock">
+            <div class="preview"></div>
+            <div class="previewText">
+                <p class="previewHeadline">Hlášení cizinců cizinecké policii</p>
+                <p class="previewInfo">Pokud mají hosté správně vyplněné údaje, Airbo je automaticky druhý den po příjezdu zaeviduje na cizineckou polici a zároveň všechny informace zanesou do formátu ubytovací knihy. Navíc pohlídá i chyby a přehledně zobrazí, co je u kterého hosta nutné opravit nebo doplnit. Údaje, které jsou v pořádku, zaeviduje a uloží si "Doručenku" - oficiální doklad od policie potvrzující správné zapsání údajů.</p>
+            </div>
+
+        </div>
+
+        <div class="howToBlockReverse">
+            <div class="previewText">
+                <p class="previewHeadline">Výpočet a platby<br>poplatku z pobytu</p>
+                <p class="previewInfo">Airbo přesně ví, kolik se u vás za měsíc ubytovalo hostů. Samo spočítá, kolik máte za který byt zaplatit a vygeneruje QR kód. S ním platbu rovnou i odbavíte. Součty umí doplnit do formulářů v PDF formátu – na vás už je jen poslat všechno přes datovou schránku na příslušný úřad.</p>
+            </div>
+            <div class="preview"></div>
+        </div>
+
+        <div class="howToBlock">
+            <div class="preview"></div>
+            <div class="previewText">
+                <p class="previewHeadline">Tisk a archivace ubytovací knihy</p>
+                <p class="previewInfo">Údaje od hostů inteligentně agreguje do formátu ubytovací knihy. Tu si jednou měsíčně vytisknete, a máte doklad, který je 100% v souladu s požadavky místního úřadu i cizinecké policie.</p>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+<!-- Button Section -->    
+
+    <div class="buttonSectionHowTo margin5">
+        <button onclick="goRegister()">Zkuste měsíc zdarma</button>
+        <p class="secondTitle">Všechny funkce bez omezení<br>
+         <span>Nekupujte zajíce v pytli! Appku si nejdříve vyzkoušejte.</span></p>
+    </div>
+
+
+<!--Ask Us-->
+    <div class="askUsSection margin5">
+        <div class="askUsContent">
+            <div class="chceteseBox">
+                <p class="chcetese"><span class="chcetese1">CHCETE SE</span><br><span class="chcetese2">na něco zeptat?</span></p>
+            </div>
+
+            <div class="askUsText">
+                <p>Možná vás něco napadlo při sledování videí.<br>
+                Nebo máte jakýkoliv jiný dotaz?<br>
+                Zavolejte - jsme tu pro vás.<br>
+                A můžeme se spojit i přes videokonferenci.</p>
+            </div>
+            <div class="contact">
+                <p><span class="name">Klára Vávrová</span> <br> 
+                    <span class="contactInfo"><a href="tel:608 371 261" style="text-decoration: none; color: #273476;">+420 608 371 261</a></span><br>
+                    <span class="contactInfo"><a href="mailto:airbo@airbo.cz" style="text-decoration: underline; color:#273476;">airbo@airbo.cz</a></span>
+                </p>
+            </div>
+
+        </div>
+        <img src="/img/klaraPhoto.png">
+    </div> 
+
+<!--Footer-->
+
+    <div class="footerBlock">
+        <div class="footer marginTop">
+            <div class="footerImgs">
+                <a href="https://www.facebook.com/airbocz"><img src="/img/facebookIcon.png"></a>
+                    <img src="/img/twitterIcon.png">
+                </div>
+                <div class="footerText">
+                    <p>Airbo s.r.o., U Gymnázia 1233/1, 140 00 Praha 4 </p>
+                    <p>IČ 08590184</p>
+                    <p href="tel: 608371261">+420 608 371 261 </p>
+                    <p href="mailto: airbo@airbo.cz" style="text-decoration: underline;">airbo@airbo.cz</p>
+
+                    <p class="all">Všechny kontakty</p>
+                </div>
+
+        </div>
+
+        <div class="underFooter">
+            <div class="underFooterText">
+                <p><a href="#">GDPR</a></p>
+                <p><a href="#">Obchodní podmínky</a></p>
+                <p><a href="#">Seznam zpracovatelů</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+ 
+<!-- Scripts -->
+    <script src="/scripts/navbar.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js" integrity="sha512-WNZwVebQjhSxEzwbettGuQgWxbpYdoLf7mH+25A7sfQbbxKeS5SQ9QBf97zOY4nOlwtksgDA/czSTmfj4DUEiQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="/scripts/slider.js"></script>
+</body>
+</html>

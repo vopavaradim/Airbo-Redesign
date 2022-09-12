@@ -83,10 +83,11 @@
     border-radius: 50%;
   }
 
-.rectangle {
+.rectangle2 {
     float: left;
-    position: relative;
-    width: 21%;
+    position: absolute;
+    width: 25%;
+    margin-top: -9%;
 }
 
 @media only screen and (max-width: 375px) {

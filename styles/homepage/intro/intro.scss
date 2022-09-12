@@ -1,0 +1,162 @@
+.headerCover {
+    margin-top: -28%;
+    margin-left: 30%;
+    width: 60%;
+    position: absolute;
+}
+
+
+.navbarShapes {
+    position: absolute;
+    top: -203px;
+    left: 301px;
+    width: 328px;
+    height: 521px;
+}
+
+.rectangle {
+    position: absolute;
+    top: 580px;
+    left: -9px;
+    width: 198px;
+    height: 198px;
+}
+
+
+.intro {
+    width: 80%;
+    height: 700px;
+    margin-right: 60%;
+    margin-left: 10%;
+    margin-top: -25%;
+    position: absolute;
+
+    .info{
+        background-color: white;
+        box-shadow: 0px 2px 6px #00000029;
+        width: 30%;
+
+
+        .infoContent {
+            margin-left: 10%;
+            padding-top: 3%;
+            padding-bottom: 10%;
+            padding-left: 3.5%;
+            .onlineBook {
+                position: relative;
+                width: 80%;
+                margin-right: 15%;
+                margin-top: 10%;
+                margin-bottom: 10%;
+                line-height: .8;
+
+                .online {
+                    color: #FF5A5F;
+                    font-size: 69px;
+                    font-family: Bebas Neue;
+                    margin-left: 5%;
+                }
+
+                .book {
+                    color: #273476;
+                    font-size: 41px;
+                }
+            }
+
+            .hero__highlightWrap2 {
+                /*  Tady se musí použít filter, protože box-shadow by nefungoval s tím ořezem vpravo  */
+                  filter: drop-shadow(0px 2px 6px #00000029);
+                  margin-left: -20%; 
+              }
+              
+              /* Tohle je ten malej trojúhelniček, vlevo dole  */
+              .hero__highlightWrap2::after {
+                content: '';
+                position: absolute;
+                display: block;
+                width: 1rem;
+                height: 1rem;
+                top: 100%;
+                left: 0;
+                background-color: #C3BFBE;
+                clip-path: polygon(0 0, 100% 0, 100% 100%);
+              }
+              
+              .hero__highlight2 {  
+                font-size: 26px;
+                font-weight: 400;
+                color:#273476;
+                position: relative;
+                padding: 1rem;
+                max-width: 350px;
+                padding-left: 2rem;  
+                margin-bottom: 2rem;
+                background-color: #FFF;
+                /*  Tohle dělá ten výřez vpravo   */
+                clip-path: polygon(100% 0%, calc(100% - 30px) 50%, 100% 100%, 0 100%, 0 0);
+              }
+
+            .infoText {
+                width: 70%;
+                text-align: left;
+                font-size: 15px;
+                color: #273476;
+            }
+        
+            .createAccount {
+                font-family: Bebas Neue;
+                font-size: 25px;
+                padding: 8px 50px 8px 50px;
+                background-color: #273476;
+                color: white;
+                border-radius: 30px;
+                border-style: none;
+                transition: ease 0.3s;
+                cursor: pointer;
+            }
+
+            .createAccount:hover{
+                background-color: #171f44;
+                text-shadow: 3px white;
+            }
+
+
+            .prvniMesic {
+                font-size: 20px;
+                color:#273476;
+                text-align: left;
+                font-weight: bolder;
+            }
+
+            .nekupujteZajice {
+                font-size: 15px;
+                color:#273476;
+                text-align: left;
+            }
+        }
+
+    }
+
+}
+
+.house {
+    position: absolute;
+    top: 850px;
+    left: 250px;
+    width: 316px;
+    height: 248px;
+}
+
+.underIntro {
+    margin-top: 35%;
+
+    h1 {
+        position: absolute;
+        margin-top: 13.5%;
+        line-height: .9;
+
+        span {
+            margin-left: 5%;
+        }
+    }
+}

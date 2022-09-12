@@ -1,10 +1,238 @@
-.headerText {
-  margin-left: 407px;
-  height: 296px;
-  background: transparent url("/img/headerBackground.png") 0% 0% no-repeat padding-box;
+@charset "UTF-8";
+.aboutHeader {
+  line-height: 0.9;
+  opacity: 1;
+  padding-bottom: 30%;
+}
+.aboutHeader .backgroundShapes {
+  float: left;
+  margin-left: -50px;
+  background-image: url("/img/bars.png");
+  height: 444px;
+  width: 780px;
+}
+.aboutHeader .backgroundShapes .circle {
+  position: absolute;
+  top: 285px;
+  left: 109px;
+  width: 73px;
+  height: 73px;
+  background: #87E5B9 0% 0% no-repeat padding-box;
+  opacity: 1;
+  border-radius: 100%;
+}
+.aboutHeader .backgroundShapes .redTriangle {
+  position: absolute;
+  top: 229px;
+  left: 240px;
+  opacity: 1;
+  height: 187px;
+  border-right: 187px solid #FF5A5F;
+}
+.aboutHeader .backgroundShapes .square {
+  position: absolute;
+  top: 229px;
+  left: 346px;
+  width: 187px;
+  height: 187px;
+  transform: matrix(0, -1, 1, 0, 0, 0);
+  background: #CDD3F0 0% 0% no-repeat padding-box;
   opacity: 1;
 }
+.aboutHeader .backgroundShapes .blueCircle {
+  position: absolute;
+  top: 267px;
+  left: 478px;
+  width: 110px;
+  height: 110px;
+  background: #273476 0% 0% no-repeat padding-box;
+  opacity: 1;
+  border-radius: 100%;
+}
+.aboutHeader .backgroundShapes .orangeTriangle {
+  position: absolute;
+  top: 191px;
+  left: 544px;
+  width: 261px;
+  height: 261px;
+  transform: matrix(0.71, -0.71, 0.71, 0.71, 0, 0);
+  background: #FFB200 0% 0% no-repeat padding-box;
+  border-radius: 264px 0px 0px 0px;
+  opacity: 1;
+}
+.aboutHeader .backgroundShapes .whiteCircle {
+  position: absolute;
+  top: 301px;
+  left: 713px;
+  width: 43px;
+  height: 43px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  opacity: 1;
+  border-radius: 100%;
+}
+.aboutHeader .headlineParagraph {
+  margin-top: 5%;
+  position: relative;
+}
+.aboutHeader .headlineParagraph h1 {
+  position: absolute;
+  margin-top: 4%;
+  font-size: 96px;
+  color: #273476;
+  margin-left: 920px;
+}
+.aboutHeader .headlineParagraph .headerTextInfo {
+  position: absolute;
+  margin-top: 18%;
+  color: #273476;
+  font-size: 18px;
+  line-height: 1.2;
+  width: 750px;
+  margin-left: 920px;
+}
+
+.dottedBack {
+  position: absolute;
+  z-index: -1;
+  top: 650px;
+  width: 45%;
+  height: 2200px;
+  left: 0;
+  border-right: 2px dashed #CDD3F0;
+}
+
+.contentHowTo {
+  position: relative;
+  z-index: 1;
+}
+.contentHowTo .howToBlock {
+  width: 80%;
+  margin-left: 15%;
+  margin-top: 3%;
+  display: flex;
+}
+.contentHowTo .howToBlock .preview {
+  top: 636px;
+  left: 399px;
+  width: 600px;
+  height: 370px;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1607843137);
+  opacity: 1;
+}
+.contentHowTo .howToBlock .previewText {
+  top: 685px;
+  width: 40%;
+  margin-left: 5%;
+  text-align: left;
+  color: #273476;
+}
+.contentHowTo .howToBlock .previewText .previewHeadline {
+  font-size: 45px;
+}
+.contentHowTo .howToBlock .previewText .previewInfo {
+  font-size: 18px;
+}
+.contentHowTo .howToBlock .previewText .sponsors {
+  margin-top: 5%;
+  display: flex;
+}
+.contentHowTo .howToBlock .previewText .sponsors img {
+  padding-right: 50px;
+}
+.contentHowTo .howToBlockReverse {
+  width: 80%;
+  margin-left: 8%;
+  margin-top: 3%;
+  display: flex;
+}
+.contentHowTo .howToBlockReverse .preview {
+  top: 636px;
+  left: 920px;
+  width: 600px;
+  height: 370px;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1607843137);
+  opacity: 1;
+}
+.contentHowTo .howToBlockReverse .previewText {
+  left: 381px;
+  width: 40%;
+  margin-right: 5%;
+  text-align: right;
+  color: #273476;
+}
+.contentHowTo .howToBlockReverse .previewText .previewHeadline {
+  font-size: 45px;
+}
+.contentHowTo .howToBlockReverse .previewText .previewInfo {
+  font-size: 18px;
+}
+.contentHowTo .howToBlockReverse .previewText .sponsors {
+  margin-top: 5%;
+  display: flex;
+}
+.contentHowTo .howToBlockReverse .previewText .sponsors img {
+  padding-right: 50px;
+}
+
+.buttonSectionHowTo {
+  width: 100%;
+}
+.buttonSectionHowTo button {
+  font-family: Bebas Neue;
+  font-size: 35px;
+  padding: 15px 35px 15px 35px;
+  text-transform: uppercase;
+  background-color: #273476;
+  color: white;
+  width: 20%;
+  margin-left: 40%;
+  height: 75px;
+  border-radius: 30px;
+  border-style: none;
+  transition: ease 0.3s;
+  cursor: pointer;
+}
+.buttonSectionHowTo button:hover {
+  background-color: #171f44;
+  text-shadow: 3px white;
+}
+.buttonSectionHowTo .secondTitle {
+  font-size: 25px;
+  text-align: center;
+  font-weight: bold;
+  color: #273476;
+}
+.buttonSectionHowTo span {
+  font-size: 15px;
+  color: #273476;
+  text-align: center;
+}
+
+.margin5 {
+  margin-top: 5%;
+}
+
+.headerText {
+  margin-left: 407px;
+  background: transparent url("/img/headerBackground.png") no-repeat;
+  height: 70px;
+  opacity: 1;
+  padding-bottom: 20%;
+}
 .headerText h1 {
+  font-size: 96px;
+  color: #273476;
+  margin-left: 291px;
+}
+
+.headerTextCircles {
+  margin-left: 407px;
+  background: transparent url("/img/headerBackground.png") no-repeat;
+  height: 70px;
+  opacity: 1;
+  padding-bottom: 15%;
+}
+.headerTextCircles h1 {
   font-size: 96px;
   color: #273476;
   margin-left: 291px;
@@ -24,7 +252,6 @@
   }
 }
 .mainInfo {
-  margin-top: 5%;
   margin-left: 668px;
   width: 698px;
   height: 94px;
@@ -128,17 +355,17 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
 
-.rectangle {
+.rectangle2 {
   float: left;
-  position: relative;
-  width: 21%;
+  position: absolute;
+  width: 25%;
+  margin-top: -9%;
 }
 
 @media only screen and (max-width: 375px) {
   .rectangle {
     display: none;
   }
-
   .switchSection {
     width: 90%;
     margin-left: 5%;
@@ -158,19 +385,16 @@ input:checked + .slider:before {
     padding-right: 10px;
     margin-top: -2px;
   }
-
   .switch {
     display: block;
     width: 65px;
     height: 35px;
   }
-
   .switch input {
     opacity: 0;
     width: 0;
     height: 0;
   }
-
   /* The slider */
   .slider {
     top: 0;
@@ -180,7 +404,6 @@ input:checked + .slider:before {
     background-color: #ccc;
     transition: 0.4s;
   }
-
   .slider:before {
     position: absolute;
     content: "";
@@ -192,80 +415,81 @@ input:checked + .slider:before {
     background-color: white;
     transition: 0.4s;
   }
-
   input:checked + .slider {
     background-color: #273476;
   }
-
   input:focus + .slider {
     box-shadow: 0 0 1px #273476;
   }
-
   input:checked + .slider:before {
     transform: translateX(35px);
     right: 5px;
   }
-
   .slider.round {
     border-radius: 34px;
     margin-bottom: 5%;
   }
-
   .slider.round:before {
     border-radius: 50%;
   }
 }
-.versions {
-  width: 80%;
-  position: relative;
-  background-image: url("../img/7.png");
-  margin-left: 5%;
-  margin-top: 15%;
-  opacity: 1;
+.versionsContainer {
+  background-image: url("/img/guide/legaslitivaBackground.png");
+  padding-bottom: 5%;
+  padding-top: -10%;
+  margin-top: 12%;
 }
-.versions .version {
+.versionsContainer .versions {
+  width: 80%;
+  margin-left: 20%;
+  opacity: 1;
+  display: flex;
+}
+.versionsContainer .versions .version {
   float: left;
   padding: 20px;
+  position: relative;
+  margin-top: -3%;
 }
-.versions .version img {
+.versionsContainer .versions .version img {
   width: 80%;
   margin-left: 10%;
 }
-.versions .version .flatsCount {
+.versionsContainer .versions .version .flatsCount {
   font-size: 35px;
   text-align: center;
   color: #273476;
 }
-.versions .version .price {
+.versionsContainer .versions .version .price {
   font-size: 45px;
   text-align: center;
   font-weight: bold;
   color: #273476;
 }
-.versions .version .dotted-text {
+.versionsContainer .versions .version .dotted-text {
   display: flex;
   flex-direction: row;
   color: #273476;
 }
-.versions .version .dotted-text:before,
-.versions .version .dotted-text:after {
+.versionsContainer .versions .version .dotted-text:before,
+.versionsContainer .versions .version .dotted-text:after {
   content: "";
   flex: 1 1;
   border-bottom: 2px dotted;
   margin: auto;
 }
-.versions .version .dotted-text:before {
+.versionsContainer .versions .version .dotted-text:before {
   margin-right: 10px;
 }
-.versions .version .dotted-text:after {
+.versionsContainer .versions .version .dotted-text:after {
   margin-left: 10px;
 }
-.versions .version .priceInfo {
+.versionsContainer .versions .version .priceInfo {
   font-size: 20px;
   text-align: center;
   color: #273476;
 }
-.versions .version .priceInfo span {
+.versionsContainer .versions .version .priceInfo span {
   text-decoration: underline;
 }
 
@@ -321,6 +545,8 @@ input:checked + .slider:before {
 }
 .buttonSection {
   width: 100%;
+  position: absolute;
+  margin-top: -2%;
 }
 .buttonSection button {
   font-family: Bebas Neue;
@@ -392,116 +618,841 @@ input:checked + .slider:before {
     text-align: center;
   }
 }
-.askUs {
-  width: 100%;
-  margin-top: 5%;
-  background: transparent url("/img/Group 10.png") 0% 0% no-repeat padding-box;
-  opacity: 1;
+.askUsSection {
+  background-image: url("/img/bars.png");
+  background-repeat: no-repeat;
+  padding: 0.5%;
 }
-.askUs .askUsContent {
-  width: 50%;
-  float: left;
-}
-.askUs .askUsContent .chcetese {
-  text-align: right;
+.askUsSection .askUsContent {
   color: #273476;
+  width: 382px;
+  margin-left: 606px;
 }
-.askUs .askUsContent .chcetese .chcetese1 {
-  font-size: 40px;
-  margin-left: 600px;
-  font-weight: bold;
+.askUsSection .askUsContent .chceteseBox {
+  line-height: 0.8;
+}
+.askUsSection .askUsContent .chceteseBox .chcetese {
+  font-size: 50px;
+}
+.askUsSection .askUsContent .chceteseBox .chcetese .chcetese1 {
   font-family: Bebas Neue;
+  margin-left: 30%;
 }
-.askUs .askUsContent .chcetese .chcetese2 {
+.askUsSection .askUsContent .askUsText {
+  background: #FFFFFF 0% 0% no-repeat padding-box;
   text-align: right;
-  font-size: 40px;
-  margin-left: 629px;
+  font-size: 18px;
+  color: #273476;
+  padding: 1px;
 }
-.askUs .askUsContent .askUsText {
+.askUsSection .askUsContent .contact {
+  width: 40%;
+  margin-left: 60%;
+  margin-top: 1.5%;
   text-align: right;
-  margin-left: 629px;
-  background-color: white;
-  font-size: 15px;
-  color: #273476;
-  width: 333px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  padding-left: -10%;
 }
-.askUs .askUsContent .contact {
-  background-color: white;
-  color: #273476;
-  text-align: right;
-  margin-left: 762px;
-  width: 200px;
+.askUsSection .askUsContent .contact .name {
+  font-size: 22px;
+  font-weight: bolder;
 }
-.askUs .askUsContent .contact .name {
-  font-size: 25px;
-  font-weight: bold;
-  color: #273476;
-}
-.askUs .askUsContent .contact .contactInfo {
-  font-size: 17px;
-}
-.askUs img {
-  float: right;
-  width: 20%;
-  margin-right: 25%;
-  margin-top: 5%;
+.askUsSection img {
+  position: absolute;
+  margin-top: -18%;
+  left: 1065px;
+  width: 414px;
+  height: 410px;
 }
 
-@media only screen and (max-width: 375px) {
-  .askUs {
-    width: 100%;
-    margin-top: 5%;
-    background: transparent url("/img/bars.png") 0% 0% no-repeat padding-box;
-    opacity: 1;
-  }
-  .askUs .askUsContent {
-    width: 90%;
-    margin-left: 5%;
-  }
-  .askUs .askUsContent .chcetese {
-    text-align: center;
-    color: #273476;
-  }
-  .askUs .askUsContent .chcetese .chcetese1 {
-    font-size: 30px;
-    margin-left: 30px;
-    font-weight: bold;
-    font-family: Bebas Neue;
-  }
-  .askUs .askUsContent .chcetese .chcetese2 {
-    margin-left: 0px;
-    text-align: center;
-    font-size: 35px;
-  }
-  .askUs .askUsContent .askUsText {
-    text-align: left;
-    background-color: white;
-    font-size: 15px;
-    color: #273476;
-    width: 90%;
-    margin-left: 5%;
-    margin-top: 10%;
-  }
-  .askUs .askUsContent .contact {
-    background-color: white;
-    color: #273476;
-    text-align: left;
-    margin-left: 5%;
-    margin-top: 10%;
-    width: 90%;
-  }
-  .askUs .askUsContent .contact .name {
-    font-size: 25px;
-    font-weight: bold;
-    color: #273476;
-  }
-  .askUs .askUsContent .contact .contactInfo {
-    font-size: 17px;
-  }
-  .askUs img {
-    position: relative;
-    width: 90%;
-    margin-right: 0%;
-    margin-top: 2%;
-  }
+.margin {
+  margin-top: 10%;
+}
+
+.headerCover {
+  margin-top: -28%;
+  margin-left: 30%;
+  width: 60%;
+  position: absolute;
+}
+
+.navbarShapes {
+  position: absolute;
+  top: -203px;
+  left: 301px;
+  width: 328px;
+  height: 521px;
+}
+
+.rectangle {
+  position: absolute;
+  top: 580px;
+  left: -9px;
+  width: 198px;
+  height: 198px;
+}
+
+.intro {
+  width: 80%;
+  height: 700px;
+  margin-right: 60%;
+  margin-left: 10%;
+  margin-top: -25%;
+  position: absolute;
+}
+.intro .info {
+  background-color: white;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1607843137);
+  width: 30%;
+}
+.intro .info .infoContent {
+  margin-left: 10%;
+  padding-top: 3%;
+  padding-bottom: 10%;
+  padding-left: 3.5%;
+  /* Tohle je ten malej trojúhelniček, vlevo dole  */
+}
+.intro .info .infoContent .onlineBook {
+  position: relative;
+  width: 80%;
+  margin-right: 15%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  line-height: 0.8;
+}
+.intro .info .infoContent .onlineBook .online {
+  color: #FF5A5F;
+  font-size: 69px;
+  font-family: Bebas Neue;
+  margin-left: 5%;
+}
+.intro .info .infoContent .onlineBook .book {
+  color: #273476;
+  font-size: 41px;
+}
+.intro .info .infoContent .hero__highlightWrap2 {
+  /*  Tady se musí použít filter, protože box-shadow by nefungoval s tím ořezem vpravo  */
+  filter: drop-shadow(0px 2px 6px rgba(0, 0, 0, 0.1607843137));
+  margin-left: -20%;
+}
+.intro .info .infoContent .hero__highlightWrap2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 1rem;
+  height: 1rem;
+  top: 100%;
+  left: 0;
+  background-color: #C3BFBE;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%);
+          clip-path: polygon(0 0, 100% 0, 100% 100%);
+}
+.intro .info .infoContent .hero__highlight2 {
+  font-size: 26px;
+  font-weight: 400;
+  color: #273476;
+  position: relative;
+  padding: 1rem;
+  max-width: 350px;
+  padding-left: 2rem;
+  margin-bottom: 2rem;
+  background-color: #FFF;
+  /*  Tohle dělá ten výřez vpravo   */
+  -webkit-clip-path: polygon(100% 0%, calc(100% - 30px) 50%, 100% 100%, 0 100%, 0 0);
+          clip-path: polygon(100% 0%, calc(100% - 30px) 50%, 100% 100%, 0 100%, 0 0);
+}
+.intro .info .infoContent .infoText {
+  width: 70%;
+  text-align: left;
+  font-size: 15px;
+  color: #273476;
+}
+.intro .info .infoContent .createAccount {
+  font-family: Bebas Neue;
+  font-size: 25px;
+  padding: 8px 50px 8px 50px;
+  background-color: #273476;
+  color: white;
+  border-radius: 30px;
+  border-style: none;
+  transition: ease 0.3s;
+  cursor: pointer;
+}
+.intro .info .infoContent .createAccount:hover {
+  background-color: #171f44;
+  text-shadow: 3px white;
+}
+.intro .info .infoContent .prvniMesic {
+  font-size: 20px;
+  color: #273476;
+  text-align: left;
+  font-weight: bolder;
+}
+.intro .info .infoContent .nekupujteZajice {
+  font-size: 15px;
+  color: #273476;
+  text-align: left;
+}
+
+.house {
+  position: absolute;
+  top: 850px;
+  left: 250px;
+  width: 316px;
+  height: 248px;
+}
+
+.underIntro {
+  margin-top: 35%;
+}
+.underIntro h1 {
+  position: absolute;
+  margin-top: 13.5%;
+  line-height: 0.9;
+}
+.underIntro h1 span {
+  margin-left: 5%;
+}
+
+.dashedLine {
+  margin-top: 1%;
+  position: absolute;
+  width: 43%;
+  height: 1000px;
+  left: 0;
+  border-right: 2px dashed #CDD3F0;
+}
+
+.tips {
+  position: relative;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+.tips .tipLeft {
+  margin-top: 7%;
+  display: flex;
+  width: 100%;
+}
+.tips .tipLeft img {
+  float: left;
+  width: 40%;
+  height: 40%;
+}
+.tips .tipLeft .textRight {
+  color: #273476;
+  margin-left: 5%;
+  float: left;
+  width: 40%;
+}
+.tips .tipLeft .textRight .headline {
+  font-size: 35px;
+  font-weight: bold;
+}
+.tips .tipLeft .textRight .tipContent {
+  font-size: 15px;
+}
+.tips .tipRight {
+  margin-top: 7%;
+  margin-left: -12%;
+  display: flex;
+  width: 100%;
+}
+.tips .tipRight img {
+  float: right;
+  width: 35%;
+  height: 35%;
+  margin-top: 5%;
+}
+.tips .tipRight .textLeft {
+  color: #273476;
+  text-align: left;
+  width: 40%;
+  margin-right: 5%;
+}
+.tips .tipRight .textLeft .headline {
+  text-align: right;
+  font-size: 35px;
+  font-weight: bold;
+}
+.tips .tipRight .textLeft .tipContent {
+  text-align: right;
+}
+
+.text {
+  color: #273476;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 5%;
+}
+.text a {
+  color: #273476;
+}
+
+.moreSection {
+  margin-top: 10%;
+  background-image: url("/img/guide/legaslitivaBackground.png");
+}
+.moreSection .moreShapes {
+  position: absolute;
+  top: 2400px;
+  left: 1103px;
+  width: 817px;
+  height: 545px;
+}
+.moreSection .phoneIMG {
+  position: absolute;
+  left: 944px;
+  top: 2550px;
+  width: 13%;
+}
+.moreSection .ntbIMG {
+  position: absolute;
+  left: 1150px;
+  top: 2750px;
+  width: 30%;
+}
+.moreSection .moreHeadline {
+  width: 20%;
+  margin-left: 40%;
+}
+.moreSection .moreHeadline h1 {
+  color: #273476;
+  font-size: 97px;
+  text-align: center;
+  line-height: 0.8;
+  position: absolute;
+  margin-top: -5%;
+}
+.moreSection .moreHeadline h1 span {
+  margin-left: -60%;
+}
+.moreSection .text {
+  width: 25%;
+  margin-left: 20%;
+  text-align: right;
+  color: #273476;
+  padding-top: 7%;
+  padding-bottom: 12%;
+}
+.moreSection .text .headline {
+  font-size: 30px;
+  font-weight: bold;
+}
+.moreSection .text button {
+  font-family: Bebas Neue;
+  font-size: 25px;
+  padding: 10px 25px 10px 25px;
+  text-transform: uppercase;
+  background-color: #273476;
+  color: white;
+  margin-top: 5%;
+  border-radius: 25px;
+  border-style: none;
+  transition: ease 0.3s;
+  cursor: pointer;
+}
+.moreSection .text button:hover {
+  background-color: #171f44;
+  text-shadow: 3px white;
+}
+
+.moreSectionII {
+  margin-bottom: 40%;
+}
+.moreSectionII .circleObj {
+  left: 0px;
+  width: 158px;
+  height: 158px;
+  border-radius: 0px 264px 0px 0px;
+  background-color: #CDD3F0;
+  position: absolute;
+  margin-top: 350px;
+}
+.moreSectionII .peopleTriangle {
+  left: 179px;
+  width: 584px;
+  height: 506px;
+  position: absolute;
+}
+.moreSectionII .content {
+  position: absolute;
+  margin-top: 5%;
+  width: 55%;
+  margin-left: 45%;
+  color: #273476;
+  text-align: left;
+}
+.moreSectionII .content .contentHeading {
+  line-height: 0.9;
+}
+.moreSectionII .content .contentHeading .data {
+  font-size: 97px;
+  font-family: Bebas Neue;
+}
+.moreSectionII .content .contentHeading .strezime {
+  font-size: 97px;
+}
+.moreSectionII .content .contentHeading .jako {
+  font-size: 30px;
+}
+.moreSectionII .content .contentText {
+  margin-top: 5%;
+}
+.moreSectionII .content .read {
+  margin-top: 5%;
+  border-top: 2px dashed #CDD3F0;
+}
+.moreSectionII .content .read h1 {
+  font-size: 45px;
+}
+.moreSectionII .content .read a {
+  text-decoration: underline;
+  cursor: pointer;
+  color: #273476;
+}
+
+.buttonSectionHP {
+  width: 100%;
+  margin-top: -2%;
+}
+.buttonSectionHP button {
+  font-family: Bebas Neue;
+  font-size: 35px;
+  padding: 10px 35px 10px 35px;
+  text-transform: uppercase;
+  background-color: #273476;
+  color: white;
+  width: 20%;
+  margin-top: 5%;
+  margin-left: 40%;
+  height: 75px;
+  border-radius: 40px;
+  border-style: none;
+  transition: ease 0.3s;
+  cursor: pointer;
+}
+.buttonSectionHP button:hover {
+  background-color: #171f44;
+  text-shadow: 3px white;
+}
+.buttonSectionHP .secondTitle {
+  font-size: 25px;
+  text-align: center;
+  font-weight: bold;
+  color: #273476;
+}
+.buttonSectionHP span {
+  font-size: 15px;
+  color: #273476;
+  text-align: center;
+}
+
+.headerText {
+  background-image: url("/img/bars.png");
+}
+.headerText .guideTitle {
+  font-size: 40px;
+  font-weight: lighter;
+}
+
+body {
+  line-height: 1.3;
+  margin: 0;
+  padding: 0;
+}
+
+/* IMGS */
+.reverseVertical {
+  position: absolute;
+  left: -27;
+  top: 534px;
+  width: 325px;
+  height: 352px;
+  background-color: #ECEDFA;
+  border-radius: 352px 0px 0px 0px;
+  opacity: 1;
+}
+
+.reverseHorizontal {
+  position: absolute;
+  left: 162px;
+  top: 371px;
+  width: 163px;
+  height: 163px;
+  background: #273476;
+  opacity: 1;
+}
+
+.orangeObj {
+  top: 426px;
+  width: 108px;
+  height: 108px;
+  position: absolute;
+  background: #FFB200;
+  border-radius: 264px 0px 0px 0px;
+  opacity: 1;
+  left: 325px;
+}
+
+.redRoof {
+  position: absolute;
+  top: 278px;
+  left: 162px;
+  width: 0;
+  height: 0;
+  border-left: 81.5px solid transparent;
+  border-right: 81.5px solid transparent;
+  border-bottom: 92.85px solid #FF5A5F;
+  opacity: 1;
+}
+
+.greenObj {
+  position: absolute;
+  top: 208px;
+  left: 325px;
+  width: 163px;
+  height: 163px;
+  background: #87E5B9 0% 0% no-repeat padding-box;
+  border-radius: 0px 264px 0px 0px;
+  opacity: 1;
+}
+
+.greenObj2 {
+  position: absolute;
+  top: 1113px;
+  left: 1568px;
+  width: 352px;
+  height: 352px;
+  background-color: #87E5B9;
+  border-radius: 352px 0px 0px 0px;
+  opacity: 1;
+}
+
+.redHalfCircle {
+  position: absolute;
+  top: 1371px;
+  left: 1826px;
+  width: 94px;
+  height: 188px;
+  border-radius: 94px 0px 0px 94px;
+  background: #FF5A5F 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+/* Links */
+.container-red {
+  width: 75%;
+  margin-left: 25%;
+  background-image: none;
+  padding-bottom: 5%;
+  margin-bottom: 5%;
+}
+
+.container-green {
+  width: 75%;
+  margin-left: 25%;
+}
+
+.bigLink {
+  position: relative;
+  text-decoration: none;
+  color: #273476;
+}
+.bigLink:hover {
+  filter: drop-shadow(0px 2px 6px rgba(0, 0, 0, 0.1607843137));
+  z-index: 2;
+}
+
+.bigLink__wrap {
+  display: flex;
+  align-items: flex-start;
+  padding: 1rem 3rem;
+  -webkit-clip-path: polygon(100% 0%, 100% 100%, 0 100%, 30px 50%, 0 0);
+          clip-path: polygon(100% 0%, 100% 100%, 0 100%, 30px 50%, 0 0);
+}
+
+.bigLink__wrap:hover {
+  background-color: #FFF;
+}
+
+.bigLink__number {
+  font-size: 62px;
+  font-family: Bebas Neue;
+  margin-right: 2rem;
+  color: #FF5A5F;
+  position: relative;
+  padding: 0;
+  text-align: center;
+}
+.bigLink__number::after {
+  content: "";
+  position: absolute;
+  left: calc(50% - 1px);
+  top: -50%;
+  height: 200%;
+  width: 1px;
+  border-left: 2px dotted rgba(39, 52, 118, 0.075);
+}
+.bigLink__number.bigLink__number--first:after {
+  top: 50%;
+}
+.bigLink:hover .bigLink__number::after {
+  display: none;
+}
+
+.bigLink__title {
+  font-size: 30px;
+  font-family: Roboto Slab;
+}
+.bigLink:hover .bigLink__title {
+  color: #FF5A5F;
+}
+
+.bigLink__desc {
+  font-size: 18px;
+}
+
+.bigLink__arrow {
+  width: 1.5rem;
+  height: auto;
+  padding-top: 0.5rem;
+  margin-left: 2rem;
+  opacity: 0;
+}
+.bigLink:hover .bigLink__arrow {
+  opacity: 1;
+}
+
+.hero {
+  padding: 2rem 0;
+}
+
+.hero__content {
+  padding: 2rem;
+  background-color: #FFF;
+  max-width: 400px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1607843137);
+}
+
+.hero__highlightWrap {
+  filter: drop-shadow(0px 2px 6px rgba(0, 0, 0, 0.1607843137));
+  margin-left: -3rem;
+}
+
+.hero__highlightWrap::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 1rem;
+  height: 1rem;
+  top: 100%;
+  left: 0;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%);
+          clip-path: polygon(0 0, 100% 0, 100% 100%);
+}
+
+.hero__highlight {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #034D9F;
+  position: relative;
+  padding: 1rem;
+  max-width: 300px;
+  padding-left: 2rem;
+  margin-bottom: 2rem;
+  background-color: #FFF;
+  -webkit-clip-path: polygon(100% 0%, calc(100% - 30px) 50%, 100% 100%, 0 100%, 0 0);
+          clip-path: polygon(100% 0%, calc(100% - 30px) 50%, 100% 100%, 0 100%, 0 0);
+}
+
+/* Legaslitiva */
+.legaslitiva-header .headerText {
+  background-image: none;
+  position: absolute;
+  margin-top: -5%;
+  line-height: 0.8;
+}
+
+.guider-legaslitiva {
+  background-image: url("/img/guide/legaslitivaBackground.png");
+  background-repeat: no-repeat;
+  background-size: 120%;
+  padding-bottom: 3%;
+}
+.guider-legaslitiva .guider {
+  padding-top: 10%;
+}
+.guider-legaslitiva .guider .bigLink__number {
+  color: #87E5B9;
+}
+.guider-legaslitiva .guider .bigLink:hover .bigLink__title {
+  color: #87E5B9;
+}
+
+/* Ask us */
+.askUs {
+  position: relative;
+  background-image: url("/img/bars.png");
+}
+.askUs .askUsContent {
+  margin-top: -3%;
+}
+.askUs img {
+  margin-top: 0%;
+}
+
+.headerTextContact .greenRectangle {
+  position: absolute;
+  margin-top: -25%;
+  margin-left: 20%;
+  width: 30%;
+}
+.headerTextContact h1 {
+  font-size: 100px;
+  position: absolute;
+  color: #273476;
+  margin-top: -20%;
+  margin-left: 35%;
+}
+
+.contact-container {
+  width: 70%;
+  margin-left: 15%;
+  margin-top: -10%;
+  position: absolute;
+}
+.contact-container .contact-block-contacts {
+  float: left;
+  margin-left: 3%;
+  background-color: white;
+  filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.1607843137));
+  padding-left: 120px;
+  padding-right: 120px;
+  padding-top: 150px;
+  padding-bottom: 50px;
+}
+.contact-container .contact-block-contacts img {
+  width: 50%;
+  position: absolute;
+  margin-left: -15%;
+  margin-top: -50%;
+}
+.contact-container .contact-block-contacts p {
+  color: #273476;
+}
+.contact-container .contact-block-contacts .links a {
+  text-decoration: none;
+  color: #273476;
+  font-weight: bolder;
+}
+.contact-container .contact-block-contacts .links .tel {
+  font-size: 41px;
+}
+.contact-container .contact-block-contacts .links .mail {
+  font-size: 26px;
+}
+.contact-container .contact-block-contacts .fakturacniUdaje {
+  font-size: 26px;
+}
+.contact-container .contact-block-adress {
+  float: left;
+  margin-left: 3%;
+  background-color: white;
+  filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.1607843137));
+  padding-left: 120px;
+  padding-right: 120px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.contact-container .contact-block-adress p {
+  color: #273476;
+}
+.contact-container .contact-block-adress .fakturacniUdaje {
+  font-size: 26px;
+}
+
+.triangleSquare {
+  position: absolute;
+  margin-top: 2%;
+  display: block;
+  margin-left: 43%;
+}
+
+.container {
+  margin-top: 12%;
+  background-image: url("/img/guide/legaslitivaBackground.png");
+  background-repeat: no-repeat;
+}
+.container .formContainer {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  width: 60%;
+  margin-left: 30%;
+  display: flex;
+  flex-direction: column;
+  background-image: url("/img/guide/legaslitivaBackground.png");
+  background-repeat: no-repeat;
+}
+.container .formContainer h1 {
+  color: #273476;
+  font-size: 45px;
+}
+.container .formContainer p {
+  font-size: 20px;
+  color: #273476;
+}
+.container .formContainer .form {
+  width: 100%;
+}
+.container .formContainer .form .infoType {
+  float: left;
+  color: #273476;
+  font-size: 20px;
+  display: inline;
+}
+.container .formContainer .inputBlock {
+  margin-top: -24%;
+}
+.container .formContainer .inputBlock .formContent {
+  align-items: left;
+  float: left;
+  margin-left: 150px;
+  margin-top: 2.5%;
+  width: 80%;
+  position: relative;
+}
+.container .formContainer .inputBlock .formContent input {
+  border-radius: 10px;
+  border-style: none;
+  filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.1607843137));
+  height: 35px;
+  width: 70%;
+  font-size: 25px;
+}
+.container .formContainer .inputBlock .formContent input:focus {
+  outline: none;
+  border-color: none;
+}
+.container .formContainer .inputBlock .formContent .message {
+  height: 150px;
+  text-align: top left;
+}
+.container .formContainer button {
+  font-family: Bebas Neue;
+  font-size: 25px;
+  padding: 8px 50px 8px 50px;
+  background-color: #273476;
+  color: white;
+  border-radius: 30px;
+  border-style: none;
+  transition: ease 0.3s;
+  cursor: pointer;
+  position: absolute;
+  margin-top: 33.5%;
+  margin-left: 6.5%;
+}
+.container .formContainer .button:hover {
+  background-color: #171f44;
+  text-shadow: 3px white;
 }/*# sourceMappingURL=main.css.map */

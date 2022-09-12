@@ -1,0 +1,77 @@
+.container {
+  margin-top: 12%;
+  background-image: url("/img/guide/legaslitivaBackground.png");
+  background-repeat: no-repeat;
+}
+.container .formContainer {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  width: 60%;
+  margin-left: 30%;
+  display: flex;
+  flex-direction: column;
+  background-image: url("/img/guide/legaslitivaBackground.png");
+  background-repeat: no-repeat;
+}
+.container .formContainer h1 {
+  color: #273476;
+  font-size: 45px;
+}
+.container .formContainer p {
+  font-size: 20px;
+  color: #273476;
+}
+.container .formContainer .form {
+  width: 100%;
+}
+.container .formContainer .form .infoType {
+  float: left;
+  color: #273476;
+  font-size: 20px;
+  display: inline;
+}
+.container .formContainer .inputBlock {
+  margin-top: -24%;
+}
+.container .formContainer .inputBlock .formContent {
+  align-items: left;
+  float: left;
+  margin-left: 150px;
+  margin-top: 2.5%;
+  width: 80%;
+  position: relative;
+}
+.container .formContainer .inputBlock .formContent input {
+  border-radius: 10px;
+  border-style: none;
+  filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.1607843137));
+  height: 35px;
+  width: 70%;
+  font-size: 25px;
+}
+.container .formContainer .inputBlock .formContent input:focus {
+  outline: none;
+  border-color: none;
+}
+.container .formContainer .inputBlock .formContent .message {
+  height: 150px;
+  text-align: top left;
+}
+.container .formContainer button {
+  font-family: Bebas Neue;
+  font-size: 25px;
+  padding: 8px 50px 8px 50px;
+  background-color: #273476;
+  color: white;
+  border-radius: 30px;
+  border-style: none;
+  transition: ease 0.3s;
+  cursor: pointer;
+  position: absolute;
+  margin-top: 33.5%;
+  margin-left: 6.5%;
+}
+.container .formContainer .button:hover {
+  background-color: #171f44;
+  text-shadow: 3px white;
+}/*# sourceMappingURL=inputs.css.map */

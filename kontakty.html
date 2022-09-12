@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/styles/Default/default.css">
+    <link rel="stylesheet" type="text/css" href="/styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Slab:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="/scripts/navbar.js"></script>
+    <title>Kontakty | Airbo</title>
+</head>
+<body>
+    <header>
+        <div id="navbar">
+            <nav>
+                <img onclick="goHP()" src="/img/logo.png">
+                <ul>
+                    <li><a href="/about.html">O aplikaci</a></li>
+                    <li><a href="/cenik.html">Ceník</a></li>
+                    <li><a href="/navody.html">Návody</a></li>
+                    <li><a href="/kontakty.html">Kontakty</a></li>
+                    <li><a class="login" href="https://app.airbo.cz/prihlasit">Přihlásit se</a></li>
+                </ul>
+    
+                <button onclick="goRegister()">VYZKOUŠET NA MĚSÍC ZDARMA</button>
+            </nav>
+        </div>
+    
+        <div class="mobile-container">
+            <div class="mobile-navbar">
+              <img class="logo" src="/img/logo.png">
+              <img class="rectangles" src="mobileNavbarRectangles.png">
+              <div id="myLinks">
+                <a href="#">O aplikaci</a>
+                <a href="#">Ceník</a>
+                <a href="#">Návody</a>
+                <a href="#">Kontakty</a>
+                <a href="#" style="font-weight: bold;">Přihlásit se</a>
+                <button><a>Vyzkoušet na měsíc zdarma</a></button>
+              </div>
+              <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+              </a>
+            </div>
+            </div> 
+    </header>
+
+    <div id="content">
+        <div class="headerTextContact">
+            <img class="bgIMG" src="/img/bars.png">
+            <img class="greenRectangle" src="/img/contacts/greenRectangle.png">
+            <h1><span style="font-family: Bebas Neue;"><b>KONTAKT</b></span></h1>
+        </div>
+
+        <img class="triangleSquare" src="/img/contacts/triangleShape.png">
+
+        <!-- Contact Containers-->
+
+        <div class="contact-container">
+            <div class="contact-block-contacts">
+                <img src="/img/klaraPhotoNoGreen.png">
+                <div class="links">
+                    <a class="tel" href="tel:608371261">+420 608 371 261</a>
+                    <p>Pondělí - Pátek 9:00-16:00</p>
+                    <a class="mail" href="mailto:airbo@airbo.cz">airbo@airbo.cz</a>
+                </div>
+                
+            </div>
+            <div class="contact-block-adress">
+                <p class="fakturacniUdaje">Fakturační údaje:</p>
+                <p><b>Airbo, s.r.o.</b><br>
+                U Gymnázia 1233/1, 140 00 Praha 4</p>
+
+                <p><b>IČO:</b> 08590184<br>
+                <b>Bankovní účet:</b> 12345678/0000 - Fio banka<br>
+                <b>IBAN:</b> 12345678/0000<br>
+                <b>Swift:</b> 12345678/0000</p>
+            </div>
+        </div>
+
+
+    <!-- Form -->
+
+        <div class="container"> 
+            <div class="formContainer">
+
+                <h1>Máte dotaz nebo<br>
+                    zpětnou vazbu?</h1>
+                <p>Napište nám. Jsme tu pro vás!</p>
+                
+                <div class="form">
+                    <p class="infoType">Jméno:</p>
+                </div>
+
+                <div class="form">
+                    <p class="infoType">Email:</p>
+                </div>
+
+                <div class="form">
+                    <p class="infoType">Telefon:</p>
+                </div>
+
+                <div class="form">
+                    <p class="infoType">Zpráva:</p>
+                </div>
+
+                
+                <div class="inputBlock">
+                    <div class="formContent">
+                        <input>
+                    </div>
+                    <div class="formContent">
+                        <input>
+                    </div>
+                    <div class="formContent">
+                        <input>
+                    </div>
+                    <div class="formContent">
+                        <input class="message">
+                    </div>
+                </div>
+                <button>ODESLAT</button>
+            </div>
+        </div>
+        
+
+        <div class="footerBlock">
+            <div class="footer">
+                <div class="footerImgs">
+                        <a href="https://www.facebook.com/airbocz"><img src="/img/facebookIcon.png"></a>
+                        <img src="/img/twitterIcon.png">
+                </div>
+                <div class="footerText">
+                    <p>Airbo s.r.o., U Gymnázia 1233/1, 140 00 Praha 4 </p>
+                    <p>IČ 08590184</p>
+                    <p href="tel: 608371261">+420 608 371 261 </p>
+                    <p href="mailto: airbo@airbo.cz" style="text-decoration: underline;">airbo@airbo.cz</p>
+
+                    <p class="all">Všechny kontakty</p>
+                </div>
+
+            </div>
+
+            <div class="underFooter">
+                <div class="underFooterText">
+                    <p><a href="#">GDPR</a></p>
+                    <p><a href="#">Obchodní podmínky</a></p>
+                    <p><a href="#">Seznam zpracovatelů</a></p>
+                </div>
+            </div>
+        </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,79 @@
+.moreSection {
+    margin-top: 10%;
+    background-image: url("/img/guide/legaslitivaBackground.png");
+
+        .moreShapes {
+            position: absolute;
+            top: 2400px;
+            left: 1103px;
+            width: 817px;
+            height: 545px;
+        }
+
+        .phoneIMG {
+            position: absolute;
+            left: 944px;
+            top: 2550px;
+            width: 13%;
+        }
+
+        .ntbIMG {
+            position: absolute;
+            left: 1150px;
+            top: 2750px;
+            width: 30%;
+        }
+
+    .moreHeadline {
+        width: 20%;
+        margin-left: 40%;
+        h1 {
+            color:#273476;
+            font-size: 97px;
+            text-align: center;
+            line-height: .8;
+            position: absolute;
+            margin-top: -5%;
+
+            span {
+                margin-left:-60%;
+            }
+
+        }
+    }
+
+    .text{
+        width: 25%;
+        margin-left: 20%;
+        text-align: right;
+        color: #273476;
+        padding-top: 7%;
+        padding-bottom: 12%;
+
+        .headline {
+            font-size: 30px;
+            font-weight: bold;
+
+        }
+
+        button {
+            font-family: Bebas Neue;
+            font-size: 25px;
+            padding: 10px 25px 10px 25px;
+            text-transform: uppercase;
+            background-color: #273476;
+            color: white;
+            margin-top: 5%;
+            border-radius: 25px;
+            border-style: none;
+            transition: ease 0.3s;
+            cursor: pointer;
+            }
+        
+            button:hover{
+                background-color: #171f44;
+                text-shadow: 3px white;
+                }
+
+    }
+}

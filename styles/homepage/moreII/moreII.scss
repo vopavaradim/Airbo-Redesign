@@ -1,0 +1,67 @@
+.moreSectionII {
+    margin-bottom: 40%;
+
+    .circleObj {
+        left: 0px;
+        width: 158px;
+        height: 158px;
+        border-radius: 0px 264px 0px 0px;
+        background-color: #CDD3F0;
+        position: absolute;
+        margin-top: 350px;
+    }
+
+    .peopleTriangle {
+        left: 179px;
+        width: 584px;
+        height: 506px;
+        position: absolute;
+    }
+
+    .content {
+        position: absolute;
+        margin-top: 5%;
+        width: 55%;
+        margin-left: 45%;
+        color:  #273476;
+        text-align: left;
+
+        .contentHeading {
+            line-height:.9;
+
+            .data {
+                font-size: 97px;
+                font-family: Bebas Neue;
+            }
+
+            .strezime {
+                font-size: 97px;
+            }
+
+            .jako {
+                font-size: 30px;
+            }
+        }
+
+        .contentText {
+            margin-top: 5%;
+        }
+
+        .read {
+            margin-top: 5%;
+            border-top: 2px dashed #CDD3F0;
+
+            h1 {
+                font-size: 45px;
+            }
+
+            a {
+                text-decoration: underline;
+                cursor: pointer;
+                color:#273476;
+            }
+        }
+
+
+    }
+}

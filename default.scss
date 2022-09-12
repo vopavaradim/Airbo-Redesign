@@ -1,10 +1,12 @@
 /* DEAFULT PARAMETERS */
 
+
 body {
     top: 0px;
     left: 0px;
     font-family: 'Roboto Slab', serif;
     margin: 0;
+    width: 1900px;
 }
 
 
@@ -16,16 +18,20 @@ body {
 #navbar {
     height: 22px;
     width: 100%;
+    margin-top: -1%;
+    background-color: white;
     nav {
         float: left;
         width: 100%;
+        background-color: white;
         position: relative;
         border-bottom: 2px solid #DEDEDE;
 
         img {
             float: left;
             margin-left: 5%;
-
+            margin-top: 25px;
+            cursor: pointer;
         }
     
         
@@ -38,11 +44,13 @@ body {
                     float: left;
                     padding-left: 20px;
                     padding-right: 20px;
-                    padding-top: 22px;
-                    padding-bottom: 22px;
+                    padding-top: 40px;
+                    padding-bottom: 40px;
                     font-size: 20px;
                     cursor: pointer;
-                    transition: ease 0.3s;
+                    transition: ease-in-out 0.3s;
+                    text-decoration: none;
+                    color: black;
                 }
 
                 a:hover {
@@ -61,6 +69,16 @@ body {
                     border-left: 1px solid #DEDEDE;
                     border-right: 1px solid #DEDEDE;
                 }
+
+                .login:hover {
+                    background: linear-gradient(
+                        to top,
+                        #87e5b9 0%,
+                        #87e5b9 80%,
+                        #23347A 80%,
+                        #23347A 100%
+                    );
+                }
             }
         }
 
@@ -68,11 +86,12 @@ body {
             font-family: Bebas Neue;
             border-radius: 20px;
             border-style: none;
-            padding: 15px;
+            padding: 11px;
             background-color:#273476;
             color: white;
             font-size: 20px;
             margin-left: 40px;
+            margin-top: 29px;
             cursor: pointer;
         }
 
@@ -88,59 +107,62 @@ body {
 
 /* FOOTER */
 
-.footer {
-    width: 100%;
-    bottom: 0;
-    margin-top: 40%;
-    border-top:2px dashed #CDD3F0;
-    border-bottom: 2px dashed #CDD3F0;
-    .footerImgs {
-        position: relative;
-        width: 180px;
-        margin-left: 850px;
-        margin-bottom: 5%;
-        img {
-            float: left;
-            width: 70px;
-            padding: 10px;
-            margin-top: -50px;
-            
-        }
-    }
 
-    .footerText {
-        width: 40%;
-        margin-left: 30%;
-
-        p {
-            text-align: center;
-            color:#273476;
+.footerBlock {
+    margin-top: 10%;
+    position: relative;
+    .footer {
+        width: 100%;
+        margin-top: 10%;
+        border-top:2px dashed #CDD3F0;
+        border-bottom: 2px dashed #CDD3F0;
+        .footerImgs {
+            width: 180px;
+            margin-left: 850px;
+            margin-bottom: 2%;
+            display:flex;
+            align-items: center;
+            img {
+                width: 70px;
+                padding: 10px;
+                margin-top: -50px;
+                
+            }
         }
 
-        .all {
-            text-decoration: underline;
-            margin-top: 30px;
-        }
-    }
-}
+        .footerText {
+            width: 40%;
+            margin-left: 30%;
 
-.underFooter {
-    width: 26%;
-    margin-left: 36%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    .underFooterText {
-        p {
+            p {
+                text-align: center;
+                color:#273476;
+            }
 
-            a {
-        float: left;
-        padding: 20px;
-        color:#273476;
-        text-decoration: underline;
+            .all {
+                text-decoration: underline;
+                margin-top: 30px;
             }
         }
     }
 }
+    .underFooter {
+        width: 26%;
+        margin-left: 36%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        .underFooterText {
+            p {
+
+                a {
+            float: left;
+            padding: 20px;
+            color:#273476;
+            text-decoration: underline;
+                }
+            }
+        }
+    }
 
 .mobile-container {
     display: none;
@@ -261,6 +283,8 @@ body {
             padding: 5%;
             padding-left: 6%;
         }
+
+
     }
 
     .footerText {

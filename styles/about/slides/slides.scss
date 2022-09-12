@@ -1,0 +1,105 @@
+.dottedBack {
+    position: absolute;
+    z-index: -1;
+    top: 650px;
+    width: 45%;
+    height: 2200px;
+    left: 0;
+    border-right: 2px dashed #CDD3F0;
+
+}
+
+.contentHowTo {
+    position: relative;
+    z-index: 1;
+
+
+    .howToBlock {
+        width: 80%;
+        margin-left: 15%;
+        margin-top: 3%;
+        display: flex;
+
+
+        .preview {
+            top: 636px;
+            left: 399px;
+            width: 600px;
+            height: 370px;
+            box-shadow: 0px 4px 16px #00000029;
+            opacity: 1;
+        }
+
+        .previewText {
+            top: 685px;
+            width: 40%;
+            margin-left: 5%;
+            text-align: left;
+            color: #273476;
+
+            .previewHeadline {
+                font-size: 45px;
+            }
+
+            .previewInfo {
+                font-size: 18px;
+            }
+
+            .sponsors {
+                margin-top: 5%;
+                display: flex;
+
+                img {
+                    padding-right: 50px;
+                }
+            }
+
+        }
+        
+    }
+
+    .howToBlockReverse {
+        width: 80%;
+        margin-left: 8%;
+        margin-top: 3%;
+        display: flex;
+
+
+        .preview {
+            top: 636px;
+            left: 920px;
+            width: 600px;
+            height: 370px;
+            box-shadow: 0px 4px 16px #00000029;
+            opacity: 1;
+        }
+
+        .previewText {
+            left: 381px;
+            width: 40%;
+            margin-right: 5%;
+            text-align: right;
+            color: #273476;
+
+            .previewHeadline {
+                font-size: 45px;
+            }
+
+            .previewInfo {
+                font-size: 18px;
+            }
+
+            .sponsors {
+                margin-top: 5%;
+                display: flex;
+
+                img {
+                    padding-right: 50px;
+                }
+            }
+
+        }
+        
+    }
+
+}

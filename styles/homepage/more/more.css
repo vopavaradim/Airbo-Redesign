@@ -1,0 +1,67 @@
+.moreSection {
+  margin-top: 10%;
+  background-image: url("/img/guide/legaslitivaBackground.png");
+}
+.moreSection .moreShapes {
+  position: absolute;
+  top: 2400px;
+  left: 1103px;
+  width: 817px;
+  height: 545px;
+}
+.moreSection .phoneIMG {
+  position: absolute;
+  left: 944px;
+  top: 2550px;
+  width: 13%;
+}
+.moreSection .ntbIMG {
+  position: absolute;
+  left: 1150px;
+  top: 2750px;
+  width: 30%;
+}
+.moreSection .moreHeadline {
+  width: 20%;
+  margin-left: 40%;
+}
+.moreSection .moreHeadline h1 {
+  color: #273476;
+  font-size: 97px;
+  text-align: center;
+  line-height: 0.8;
+  position: absolute;
+  margin-top: -5%;
+}
+.moreSection .moreHeadline h1 span {
+  margin-left: -60%;
+}
+.moreSection .text {
+  width: 25%;
+  margin-left: 20%;
+  text-align: right;
+  color: #273476;
+  padding-top: 7%;
+  padding-bottom: 12%;
+}
+.moreSection .text .headline {
+  font-size: 30px;
+  font-weight: bold;
+}
+.moreSection .text button {
+  font-family: Bebas Neue;
+  font-size: 25px;
+  padding: 10px 25px 10px 25px;
+  text-transform: uppercase;
+  background-color: #273476;
+  color: white;
+  margin-top: 5%;
+  border-radius: 25px;
+  border-style: none;
+  transition: ease 0.3s;
+  cursor: pointer;
+}
+.moreSection .text button:hover {
+  background-color: #171f44;
+  text-shadow: 3px white;
+}/*# sourceMappingURL=more.css.map */

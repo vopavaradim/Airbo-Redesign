@@ -19,16 +19,16 @@
 <header>
     <div id="navbar">
         <nav>
-            <img src="/img/logo.png">
+            <img onclick="goHP()" src="/img/logo.png">
             <ul>
-                <li><a>O aplikaci</a></li>
-                <li><a>Ceník</a></li>
-                <li><a>Návody</a></li>
-                <li><a>Kontakty</a></li>
-                <li><a class="login">Přihlásit se</a></li>
+                <li><a href="/about.html">O aplikaci</a></li>
+                <li><a href="/cenik.html">Ceník</a></li>
+                <li><a href="/navody.html">Návody</a></li>
+                <li><a href="/kontakty.html">Kontakty</a></li>
+                <li><a href="https://app.airbo.cz/prihlasit" class="login">Přihlásit se</a></li>
             </ul>
 
-            <button>VYZKOUŠET NA MĚSÍC ZDARMA</button>
+            <button onclick="goRegister()">VYZKOUŠET NA MĚSÍC ZDARMA</button>
         </nav>
     </div>
 
@@ -42,7 +42,7 @@
             <a href="#">Návody</a>
             <a href="#">Kontakty</a>
             <a href="#" style="font-weight: bold;">Přihlásit se</a>
-            <button><a>Vyzkoušet na měsíc zdarma</a></button>
+            <button onclick="goRegister()">Vyzkoušet na měsíc zdarma</button>
           </div>
           <a href="javascript:void(0);" class="icon" onclick="myFunction()">
             <i class="fa fa-bars"></i>
@@ -50,8 +50,11 @@
         </div>
         </div> 
 </header>
+
+<!-- Content -->
+
 <div id="content">
-    <div class="headerText">
+    <div class="headerTextCircles">
         <h1><span style="font-family: Bebas Neue;"><b>KOLIK</b></span><br>
             Airbo stojí? </h1>
     </div>
@@ -63,7 +66,7 @@
            Poplatky jsme proto co nejvíc přizpůsobili vašim potřebám.</p>
     </div>
 
-    <img class="rectangle" src="/img/ctvrtKruhu.png">
+    <img class="rectangle2" src="/img/ctvrtKruhu.png">
 
 
     <!-- Switcher -->
@@ -82,7 +85,7 @@
 
 
     <!-- Versions -->
-
+<div class="versionsContainer">
     <div class="versions"> 
         <div class="version">
             <img src="/img/v1.png">
@@ -107,12 +110,12 @@
     </div>
 
     <div class="buttonSection">
-        <button>Vyzkoušet Airbo</button>
+        <button onclick="goRegister()">Vyzkoušet Airbo</button>
         <p class="secondTitle">1. měsíc zdarma<br>
          <span>První měsíc můžete Airbo používat ZCELA ZDARMA bez omezení počtu bytů nebo funkcí.</span></p>
     </div>
-
-    <div class="askUs">
+</div>
+    <div class="askUsSection margin">
         <div class="askUsContent">
             <div class="chceteseBox">
                 <p class="chcetese"><span class="chcetese1">CHCETE SE</span><br><span class="chcetese2">na něco zeptat?</span></p>
@@ -135,30 +138,31 @@
         <img src="/img/klaraPhoto.png">
     </div> 
 
-    <div class="footer">
-         <div class="footerImgs">
-                <img src="/img/facebookIcon.png">
-                <img src="/img/twitterIcon.png">
+    <div class="footerBlock">
+        <div class="footer marginTop">
+            <div class="footerImgs">
+                <a href="https://www.facebook.com/airbocz"><img src="/img/facebookIcon.png"></a>
+                    <img src="/img/twitterIcon.png">
+                </div>
+                <div class="footerText">
+                    <p>Airbo s.r.o., U Gymnázia 1233/1, 140 00 Praha 4 </p>
+                    <p>IČ 08590184</p>
+                    <p href="tel: 608371261">+420 608 371 261 </p>
+                    <p href="mailto: airbo@airbo.cz" style="text-decoration: underline;">airbo@airbo.cz</p>
+
+                    <p class="all">Všechny kontakty</p>
+                </div>
+
+        </div>
+
+        <div class="underFooter">
+            <div class="underFooterText">
+                <p><a href="#">GDPR</a></p>
+                <p><a href="#">Obchodní podmínky</a></p>
+                <p><a href="#">Seznam zpracovatelů</a></p>
             </div>
-            <div class="footerText">
-                <p>Airbo s.r.o., U Gymnázia 1233/1, 140 00 Praha 4 </p>
-                <p>IČ 08590184</p>
-                <p href="tel: 608371261">+420 608 371 261 </p>
-                <p href="mailto: airbo@airbo.cz" style="text-decoration: underline;">airbo@airbo.cz</p>
-
-                <p class="all">Všechny kontakty</p>
-            </div>
-
-    </div>
-
-    <div class="underFooter">
-        <div class="underFooterText">
-            <p><a href="#">GDPR</a></p>
-            <p><a href="#">Obchodní podmínky</a></p>
-            <p><a href="#">Seznam zpracovatelů</a></p>
         </div>
     </div>
-    
 </div>
  
 </body>

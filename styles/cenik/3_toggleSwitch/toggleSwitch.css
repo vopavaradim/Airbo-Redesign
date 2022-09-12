@@ -76,17 +76,17 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
 
-.rectangle {
+.rectangle2 {
   float: left;
-  position: relative;
-  width: 21%;
+  position: absolute;
+  width: 25%;
+  margin-top: -9%;
 }
 
 @media only screen and (max-width: 375px) {
   .rectangle {
     display: none;
   }
-
   .switchSection {
     width: 90%;
     margin-left: 5%;
@@ -106,19 +106,16 @@ input:checked + .slider:before {
     padding-right: 10px;
     margin-top: -2px;
   }
-
   .switch {
     display: block;
     width: 65px;
     height: 35px;
   }
-
   .switch input {
     opacity: 0;
     width: 0;
     height: 0;
   }
-
   /* The slider */
   .slider {
     top: 0;
@@ -128,7 +125,6 @@ input:checked + .slider:before {
     background-color: #ccc;
     transition: 0.4s;
   }
-
   .slider:before {
     position: absolute;
     content: "";
@@ -140,25 +136,20 @@ input:checked + .slider:before {
     background-color: white;
     transition: 0.4s;
   }
-
   input:checked + .slider {
     background-color: #273476;
   }
-
   input:focus + .slider {
     box-shadow: 0 0 1px #273476;
   }
-
   input:checked + .slider:before {
     transform: translateX(35px);
     right: 5px;
   }
-
   .slider.round {
     border-radius: 34px;
     margin-bottom: 5%;
   }
-
   .slider.round:before {
     border-radius: 50%;
   }

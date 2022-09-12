@@ -1,127 +1,60 @@
-.askUs {
-    width: 100%;
-    margin-top: 5%;
-    background: transparent url('/img/Group 10.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
+.askUsSection {
+    background-image: url("/img/bars.png");
+    background-repeat: no-repeat;
+    padding: .5%;
+
+
     .askUsContent {
-        width: 50%;
-        float: left;
-    .chcetese {
-            text-align: right;
-            color:#273476;
-            .chcetese1 {
-                font-size: 40px;
-                margin-left: 600px;
-                font-weight: bold;
-                font-family: Bebas Neue;
-                
+        color: #273476;
+        width: 382px;
+        margin-left: 606px;
+        .chceteseBox {
+            line-height: .8;
+
+            .chcetese {
+                font-size: 50px;
+
+                .chcetese1 {
+                    font-family: Bebas Neue;
+                    margin-left: 30%;
+                }
+
             }
 
-            .chcetese2 {
-                text-align: right;
-                font-size: 40px;
-                margin-left: 629px;
-             }
         }
 
         .askUsText {
+            background: #FFFFFF 0% 0% no-repeat padding-box;
             text-align: right;
-            margin-left: 629px;
-            background-color: white;
-            font-size: 15px;
+            font-size: 18px;
             color: #273476;
-            width: 333px;
+            padding: 1px;
         }
 
         .contact {
-            background-color: white;
-            color: #273476;
+            width: 40%;
+            margin-left: 60%;
+            margin-top: 1.5%;
             text-align: right;
-            margin-left: 762px;
-            width: 200px;
+            background: #FFFFFF 0% 0% no-repeat padding-box;
+            padding-left: -10%;
 
-        .name {
-                font-size: 25px;
-                font-weight: bold;
-                color:#273476;
+            .name {
+                font-size: 22px;
+                font-weight:bolder;
             }
-
-        .contactInfo {
-            font-size: 17px;
-        }
         }
     }
+
     img {
-        float: right;
-        width: 20%;
-        margin-right: 25%;
-        margin-top: 5%;
+        position: absolute;
+        margin-top: -18%;
+        left: 1065px;
+        width: 414px;
+        height: 410px;
     }
 }
 
-@media only screen and (max-width: 375px) {
-    .askUs {
-        width: 100%;
-        margin-top: 5%;
-        background: transparent url('/img/bars.png') 0% 0% no-repeat padding-box;
-        opacity: 1;
-        .askUsContent {
-            width: 90%;
-            margin-left: 5%;
-        .chcetese {
-                text-align: center;
-                color:#273476;
-                .chcetese1 {
-                    font-size: 30px;
-                    margin-left: 30px;
-                    font-weight: bold;
-                    font-family: Bebas Neue;
-                    
-                }
-    
-                .chcetese2 {
-                    margin-left: 0px;
-                    text-align: center;
-                    font-size: 35px;
-                 }
-            }
-    
-            .askUsText {
-                text-align: left;
-                background-color: white;
-                font-size: 15px;
-                color: #273476;
-                width: 90%;
-                margin-left: 5%;
-                margin-top: 10%;
-                
-            }
-    
-            .contact {
-                background-color: white;
-                color: #273476;
-                text-align: left;
-                margin-left: 5%;
-                margin-top: 10%;
-                width: 90%;
-    
-            .name {
-                    font-size: 25px;
-                    font-weight: bold;
-                    color:#273476;
-                }
-    
-            .contactInfo {
-                font-size: 17px;
-            }
-            }
-        }
-
-        img {
-            position: relative;
-            width: 90%;
-            margin-right: 0%;
-            margin-top: 2%;
-        }
-    }
+.margin {
+    margin-top: 10%;
 }
