@@ -3,7 +3,7 @@
     z-index: -1;
     top: 650px;
     width: 45%;
-    height: 2200px;
+    height: 2300px;
     left: 0;
     border-right: 2px dashed #CDD3F0;
 
@@ -14,7 +14,7 @@
     z-index: 1;
 
 
-    .howToBlock {
+    .howToBlock {       
         width: 80%;
         margin-left: 15%;
         margin-top: 3%;
@@ -22,12 +22,51 @@
 
 
         .preview {
-            top: 636px;
-            left: 399px;
             width: 600px;
             height: 370px;
             box-shadow: 0px 4px 16px #00000029;
             opacity: 1;
+
+              .slick-arrow {
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                border: none;
+                background-color: transparent;
+                height: 124px;
+                width: 53px;
+              }
+          
+              .slick-arrow > svg {
+                fill: #273476;
+              }
+          
+              .slick-arrow:hover {
+                background-color: #273476;
+              }
+          
+              .slick-arrow:hover > svg {
+                fill: white;
+              }
+          
+              .slick-prev {
+                left: -53px;
+                border-radius: 53px 0 0 53px;
+              }
+
+              .slick-prev:before {
+                display: none;
+              }
+          
+              .slick-next {
+                right: -53px;
+                border-radius: 0 53px 53px 0;
+              }
+
+              .slick-next:before {
+                display: none;
+              }
+          
         }
 
         .previewText {
@@ -66,16 +105,60 @@
 
 
         .preview {
-            top: 636px;
-            left: 920px;
             width: 600px;
             height: 370px;
             box-shadow: 0px 4px 16px #00000029;
             opacity: 1;
+          
+              .slick-arrow {
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                border: none;
+                background-color: transparent;
+                height: 124px;
+                width: 53px;
+              }
+          
+              .slick-arrow > svg {
+                fill: #273476;
+              }
+          
+              .slick-arrow:hover {
+                background-color: #273476;
+
+                button {
+                    display: none;
+                }
+              }
+          
+              .slick-arrow:hover > svg {
+                fill: white;
+              }
+          
+              .slick-prev {
+                left: -53px;
+                border-radius: 53px 0 0 53px;
+              }
+
+              .slick-prev::before {
+                display: none;
+              }
+          
+              .slick-next {
+                right: -53px;
+                border-radius: 0 53px 53px 0;
+              }
+
+              .slick-next::before {
+                display: none;
+              }
+          
+              
         }
 
         .previewText {
-            left: 381px;
+            left: 420px;
             width: 40%;
             margin-right: 5%;
             text-align: right;
@@ -103,3 +186,27 @@
     }
 
 }
+
+.slick-dots {
+    position: absolute; 
+    display: flex;
+    width: 100%;
+    justify-content: center;
+      
+    li {
+    width: 8px;
+    height: 8px;
+    margin: 0 3px;
+    color: #CDD3F0 ;
+    cursor: pointer;
+
+    button {
+        display: none;  
+      }
+      
+      &.slick-active {
+            color: #FF5A5F;
+            pointer-events: none;
+      }
+    }
+  }

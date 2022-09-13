@@ -3,7 +3,7 @@
   z-index: -1;
   top: 650px;
   width: 45%;
-  height: 2200px;
+  height: 2300px;
   left: 0;
   border-right: 2px dashed #CDD3F0;
 }
@@ -19,12 +19,42 @@
   display: flex;
 }
 .contentHowTo .howToBlock .preview {
-  top: 636px;
-  left: 399px;
   width: 600px;
   height: 370px;
   box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1607843137);
   opacity: 1;
+}
+.contentHowTo .howToBlock .preview .slick-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  background-color: transparent;
+  height: 124px;
+  width: 53px;
+}
+.contentHowTo .howToBlock .preview .slick-arrow > svg {
+  fill: #273476;
+}
+.contentHowTo .howToBlock .preview .slick-arrow:hover {
+  background-color: #273476;
+}
+.contentHowTo .howToBlock .preview .slick-arrow:hover > svg {
+  fill: white;
+}
+.contentHowTo .howToBlock .preview .slick-prev {
+  left: -53px;
+  border-radius: 53px 0 0 53px;
+}
+.contentHowTo .howToBlock .preview .slick-prev:before {
+  display: none;
+}
+.contentHowTo .howToBlock .preview .slick-next {
+  right: -53px;
+  border-radius: 0 53px 53px 0;
+}
+.contentHowTo .howToBlock .preview .slick-next:before {
+  display: none;
 }
 .contentHowTo .howToBlock .previewText {
   top: 685px;
@@ -53,15 +83,48 @@
   display: flex;
 }
 .contentHowTo .howToBlockReverse .preview {
-  top: 636px;
-  left: 920px;
   width: 600px;
   height: 370px;
   box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1607843137);
   opacity: 1;
 }
+.contentHowTo .howToBlockReverse .preview .slick-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  background-color: transparent;
+  height: 124px;
+  width: 53px;
+}
+.contentHowTo .howToBlockReverse .preview .slick-arrow > svg {
+  fill: #273476;
+}
+.contentHowTo .howToBlockReverse .preview .slick-arrow:hover {
+  background-color: #273476;
+}
+.contentHowTo .howToBlockReverse .preview .slick-arrow:hover button {
+  display: none;
+}
+.contentHowTo .howToBlockReverse .preview .slick-arrow:hover > svg {
+  fill: white;
+}
+.contentHowTo .howToBlockReverse .preview .slick-prev {
+  left: -53px;
+  border-radius: 53px 0 0 53px;
+}
+.contentHowTo .howToBlockReverse .preview .slick-prev::before {
+  display: none;
+}
+.contentHowTo .howToBlockReverse .preview .slick-next {
+  right: -53px;
+  border-radius: 0 53px 53px 0;
+}
+.contentHowTo .howToBlockReverse .preview .slick-next::before {
+  display: none;
+}
 .contentHowTo .howToBlockReverse .previewText {
-  left: 381px;
+  left: 420px;
   width: 40%;
   margin-right: 5%;
   text-align: right;
@@ -79,4 +142,25 @@
 }
 .contentHowTo .howToBlockReverse .previewText .sponsors img {
   padding-right: 50px;
+}
+
+.slick-dots {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.slick-dots li {
+  width: 8px;
+  height: 8px;
+  margin: 0 3px;
+  color: #CDD3F0;
+  cursor: pointer;
+}
+.slick-dots li button {
+  display: none;
+}
+.slick-dots li.slick-active {
+  color: #FF5A5F;
+  pointer-events: none;
 }/*# sourceMappingURL=slides.css.map */
