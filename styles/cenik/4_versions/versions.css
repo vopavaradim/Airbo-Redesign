@@ -31,6 +31,12 @@
   font-weight: bold;
   color: #273476;
 }
+.versionsContainer .versions .version .price .monthly {
+  display: block;
+}
+.versionsContainer .versions .version .price .annualy {
+  display: none;
+}
 .versionsContainer .versions .version .dotted-text {
   display: flex;
   flex-direction: row;
@@ -54,8 +60,15 @@
   text-align: center;
   color: #273476;
 }
-.versionsContainer .versions .version .priceInfo span {
-  text-decoration: underline;
+.versionsContainer .versions .version .priceInfo a {
+  color: #273476;
+}
+
+.show-annualy .price .monthly {
+  display: none;
+}
+.show-annualy .price .annualy {
+  display: block;
 }
 
 @media only screen and (max-width: 375px) {

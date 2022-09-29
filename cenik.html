@@ -75,7 +75,7 @@
         <p>Na měsíc</p>
         <div class="switchButton">
         <label class="switch">
-            <input type="checkbox">
+            <input id="toggle" unchecked type="checkbox">
             <span class="slider round"></span>
         </label>
         </div>
@@ -86,18 +86,32 @@
 
     <!-- Versions -->
 <div class="versionsContainer">
-    <div class="versions"> 
-        <div class="version">
+    <div id="vers" class="versions"> 
+        <div class="version show-annualy">
             <img src="/img/v1.png">
             <p class="flatsCount">1 - 5 bytů</p>
-            <p class="price">219 KČ/BYT</p>
+            <p class="price">
+                <span class="monthly">
+                    219 KČ/BYT
+                </span>
+                <span class="annualy">
+                    186 KČ/BYT
+                </span>
+            </p>
             <div class="dotted-text">Měsíčně</div>
             <p class="priceInfo">(2 628 Kč/rok)</p>
         </div>
-        <div class="version">
+        <div class="version show-annualy">
             <img src="/img/v2.png">
             <p class="flatsCount">6 - 10 bytů</p>
-            <p class="price">2 041 KČ/BYT</p>
+            <p class="price">
+                <span class="monthly">
+                    2 041 KČ/BYT
+                </span>
+                <span class="annualy">
+                    1 735 KČ/BYT
+                </span>
+            </p>
             <div class="dotted-text">Ročně</div>
             <p class="priceInfo">(170 Kč/měsíc)</p>
         </div>
@@ -105,7 +119,7 @@
             <img src="/img/v3.png">
             <p class="flatsCount">Více než<br> 10 bytů</p>
             <hr style="border-top: none; border-bottom: dotted 2px #273476;">
-            <p class="priceInfo"><span>Kontaktuje nás!</span><br>Na ceně se dohodneme</p>
+            <p class="priceInfo"><a href="kontakty.html">Kontaktuje nás!</a><br>Na ceně se dohodneme</p>
         </div>
     </div>
 
@@ -164,6 +178,8 @@
         </div>
     </div>
 </div>
+
+<script src="/scripts/pricing.js"></script>
  
 </body>
 </html>
